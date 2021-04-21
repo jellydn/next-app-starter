@@ -5,6 +5,7 @@ import Header from "../components/Header";
 
 describe("Header component", () => {
   test("should render header", () => {
-    render(<Header links={[]} />);
+    const fn = jest.fn();
+    render(<Header links={[]} onSignIn={fn} />);
   });
 });

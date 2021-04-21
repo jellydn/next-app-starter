@@ -5,13 +5,16 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Next App Starter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js App Starter!</a>
+          Welcome to{" "}
+          <a href="https://github.com/jellydn/next-app-starter">
+            Next.js App Starter!
+          </a>
         </h1>
 
         <p className={styles.description}>
@@ -25,39 +28,47 @@ export default function Home() {
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://tailwindcss.com/" className={styles.card}>
+            <h3>Tailwind CSS</h3>
+            <p>Rapidly build modern websites without ever leaving your HTML.</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://storybook.js.org/" className={styles.card}>
+            <h3>Storybook</h3>
+            <p>Build bulletproof UI components faster.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
+          <a href="https://www.react-hook-form.com/" className={styles.card}>
+            <h3>React Hook Form</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Performance, flexible and extensible forms with easy-to-use
+              validation.
             </p>
+          </a>
+
+          <a href="https://testing-library.com/" className={styles.card}>
+            <h3>React Testing Library</h3>
+            <p>
+              Simple and complete testing utilities that encourage good testing
+              practices .
+            </p>
+          </a>
+
+          <a href="https://react-query.tanstack.com/" className={styles.card}>
+            <h3>React query</h3>
+            <p>Performant and powerful data synchronization for React</p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://productsway.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/logo.svg" alt="ProductsWay Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
