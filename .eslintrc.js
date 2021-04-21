@@ -35,7 +35,14 @@ module.exports = {
     },
   },
   rules: {
+    "import/extensions": 0,
     "react/react-in-jsx-scope": 0,
+    "react/prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": [1, { extensions: [".jsx", ".tsx"] }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { devDependencies: ["**/*.test.tsx", "**/*.stories.tsx"] },
+    ],
   },
 };
