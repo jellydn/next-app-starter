@@ -48,6 +48,7 @@
     "husky": ">=6.0.0",
     "jest": "^26.6.3",
     "lint-staged": ">=10.5.4",
+    "msw": "^0.28.2",
     "postcss": "^7.0.35",
     "prettier": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
@@ -61,5 +62,8 @@
     "*.{css,json,md,yml,yaml}": [
       "prettier --write"
     ]
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
