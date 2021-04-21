@@ -5,9 +5,9 @@
 
 > Another awesome starter for your app
 
-### 🏠 [Homepage](next-app-starter.vercel.app)
+### 🏠 [Homepage](https://github.com/jellydn/next-app-starter)
 
-### ✨ [Demo](next-app-starter.vercel.app)
+### ✨ [Demo](https://next-app-starter.vercel.app)
 
 ## Built with
 
@@ -35,6 +35,12 @@ yarn dev
 
 ```sh
 yarn test
+```
+
+## Run storybook
+
+```sh
+yarn storybook
 ```
 
 ## Author
