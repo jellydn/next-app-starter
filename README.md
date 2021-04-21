@@ -9,6 +9,8 @@
 
 ### ✨ [Demo](https://next-app-starter.vercel.app)
 
+![screenshot](./screenshot.png)
+
 ## Built with
 
 - [NextJS: the React Framework for Production](https://nextjs.org/docs)
