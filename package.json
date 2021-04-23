@@ -35,7 +35,7 @@
     "@storybook/addon-links": "6.2.9",
     "@storybook/addon-postcss": "2.0.0",
     "@storybook/react": "6.2.9",
-    "@tailwindcss/postcss7-compat": "2.1.0",
+    "@tailwindcss/postcss7-compat": "2.1.2",
     "@testing-library/jest-dom": "5.12.0",
     "@testing-library/react": "11.2.6",
     "@types/jest": "26.0.22",
