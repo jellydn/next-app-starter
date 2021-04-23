@@ -10,6 +10,7 @@ declare module "next-auth" {
       address: string;
       image: string;
       email: string;
+      name: string;
     };
   }
   /**
