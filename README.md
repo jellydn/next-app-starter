@@ -15,6 +15,8 @@
 
 - [NextJS: the React Framework for Production](https://nextjs.org/docs)
 - [Tailwindcss: rapidly build modern websites without ever leaving your HTML](https://tailwindcss.com/)
+- [Prisma: next-generation ORM for Node.js and TypeScrip](https://www.prisma.io/)
+- [NextAuth.js: Authentication for Next.js](https://next-auth.js.org/)
 - [Storybook: build bulletproof UI components faster](https://storybook.js.org)
 - [React-hook-form: performance, flexible and extensible forms with easy-to-use validation](https://www.react-hook-form.com/)
 - [react-testing: simple and complete testing utilities that encourage good testing practices](https://testing-library.com/)
@@ -28,6 +30,8 @@ yarn install
 ```
 
 ## Usage
+
+Create .env.local base on .env.example then run below command
 
 ```sh
 yarn dev
