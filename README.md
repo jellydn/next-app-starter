@@ -31,7 +31,7 @@ yarn install
 
 ## Usage
 
-Create .env.local base on .env.example then run below command
+Create .env file base on .env.example then run below command
 
 ```sh
 yarn dev
