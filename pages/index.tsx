@@ -1,8 +1,11 @@
+import { GetServerSideProps } from "next";
 import Head from "next/head";
+import { getSession } from "next-auth/client";
+
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function Index() {
   return (
     <Layout>
       <div className={styles.container}>
@@ -93,3 +96,9 @@ export default function Home() {
     </Layout>
   );
 }
+
+export const getServerSideProps: GetServerSideProps = async (ctx) => ({
+  props: {
+    session: await getSession(ctx),
+  },
+});
