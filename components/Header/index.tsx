@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { signIn, signOut, useSession } from "next-auth/client";
 import { HeaderProps } from "./types";
 import styles from "./header.module.css";
@@ -25,13 +26,11 @@ const Header: React.FC<HeaderProps> = ({ links = [] }) => {
         </a>
         <nav className="flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400">
           {links.map((link) => (
-            <a
-              key={link.url}
-              href={link.url}
-              className="mr-5 hover:text-gray-900"
-            >
-              {link.title}
-            </a>
+            <Link key={link.url} href={link.url}>
+              <a href={link.url} className="mr-5 hover:text-gray-900">
+                {link.title}
+              </a>
+            </Link>
           ))}
         </nav>
         {!session && (
@@ -68,6 +67,7 @@ const Header: React.FC<HeaderProps> = ({ links = [] }) => {
               <br />
               <strong>{session.user.email || session.user.name}</strong>
             </span>
+
             <a
               href="/api/auth/signout"
               className={styles.button}
