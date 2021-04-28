@@ -1244,10 +1244,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.2.0.tgz#f3933a44e365864f4dad5db94158106d511e8131"
   integrity sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug==
 
-"@headlessui/react@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.0.0.tgz#661b50ebfd25041abb45d8eedd85e7559056bcaf"
-  integrity sha512-mjqRJrgkbcHQBfAHnqH0yRxO/y/22jYrdltpE7WkurafREKZ+pj5bPBwYHMt935Sdz/n16yRcVmsSCqDFHee9A==
+"@headlessui/react@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.1.0.tgz#04cf1e779cdd514b294dc863205b686a5922fa93"
+  integrity sha512-cauadRPiC3lDxudbgLkHThAhfqLIzp7159z2tNjODxrpOnckOk809rfAj63YdXWreRbLETNOupq1pC4i1NX9xA==
 
 "@heroicons/react@1.0.1":
   version "1.0.1"
