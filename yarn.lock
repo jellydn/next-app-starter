@@ -9167,10 +9167,10 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-next-auth@3.18.0:
-  version "3.18.0"
-  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.18.0.tgz#fbd173021b56223e3bfd1e32db7c0a6ffbbed892"
-  integrity sha512-2d1KaIPGf4Cd9DLWCiq9dQx1xyZif14C4NoI+RzkvWMlI+PTkVYDUTKKzzpYA+5+qmubn2peMuEreJ1GIQWzkw==
+next-auth@3.19.3:
+  version "3.19.3"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.19.3.tgz#0ac06dbd8fcf1348a8a2beb99fcae26de32fec82"
+  integrity sha512-lG5h5pa1MSMhGh+I6psdNrNZ/1FVfxaJDTr/h8DL5s6JXIEQsSU/YhqFg1Aqz9uw+L2sRRDwaFy94fiLSh+pgw==
   dependencies:
     "@next-auth/prisma-legacy-adapter" canary
     "@next-auth/typeorm-legacy-adapter" canary
