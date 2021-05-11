@@ -5,7 +5,7 @@
 
 > Another awesome starter for your app
 
-### 🏠 [Homepage](https://github.com/jellydn/next-app-starter)
+## 🏠 [Homepage](https://github.com/jellydn/next-app-starter)
 
 ### ✨ [Demo](https://next-app-starter.vercel.app)
 
@@ -17,6 +17,7 @@
 - [Tailwindcss: rapidly build modern websites without ever leaving your HTML](https://tailwindcss.com/)
 - [Prisma: next-generation ORM for Node.js and TypeScrip](https://www.prisma.io/)
 - [NextAuth.js: Authentication for Next.js](https://next-auth.js.org/)
+- [next-validations: NextJS API Validations, support Yup, Fastest-Validator, Joi, and more](https://next-validations.productsway.com/)
 - [Storybook: build bulletproof UI components faster](https://storybook.js.org)
 - [React-hook-form: performance, flexible and extensible forms with easy-to-use validation](https://www.react-hook-form.com/)
 - [react-testing: simple and complete testing utilities that encourage good testing practices](https://testing-library.com/)

@@ -22,6 +22,7 @@
     "next": "10.2.0",
     "next-auth": "3.21.1",
     "next-secure-headers": "2.2.0",
+    "next-validations": "^0.1.8",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hook-form": "7.5.2",
