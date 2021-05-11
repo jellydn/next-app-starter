@@ -1,4 +1,7 @@
 module.exports = {
+  automock: false,
+  resetMocks: false,
+  setupFiles: ["./setupJest.js"],
   collectCoverageFrom: [
     "**/*.{js,jsx,ts,tsx}",
     "!**/*.d.ts",
