@@ -30,7 +30,7 @@ export default function Contact() {
 
   return (
     <Layout>
-      <DevTool control={control} />
+      <DevTool control={control} placement="top-left" />
 
       <section className="relative text-gray-600 body-font">
         <div className="container flex px-5 py-24 mx-auto">
