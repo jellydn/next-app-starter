@@ -16,7 +16,7 @@
     "@heroicons/react": "1.0.1",
     "@hookform/devtools": "3.1.0",
     "@hookform/resolvers": "2.5.1",
-    "@prisma/client": "2.22.1",
+    "@prisma/client": "2.23.0",
     "@tailwindcss/forms": "0.3.2",
     "loglevel": "1.7.1",
     "next": "10.2.0",
@@ -65,7 +65,7 @@
     "msw": "0.28.2",
     "postcss": "7.0.35",
     "prettier": "2.3.0",
-    "prisma": "2.22.1",
+    "prisma": "2.23.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "4.2.4"
   },
