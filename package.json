@@ -63,7 +63,7 @@
     "kutty": "0.5.1",
     "lint-staged": "11.0.0",
     "msw": "0.29.0",
-    "postcss": "7.0.35",
+    "postcss": "8.3.0",
     "prettier": "2.3.0",
     "prisma": "2.23.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
