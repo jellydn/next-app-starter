@@ -20,7 +20,7 @@
     "@tailwindcss/forms": "0.3.2",
     "loglevel": "1.7.1",
     "next": "10.2.3",
-    "next-auth": "3.24.0",
+    "next-auth": "3.25.0",
     "next-secure-headers": "2.2.0",
     "next-validations": "0.1.10",
     "react": "17.0.2",
