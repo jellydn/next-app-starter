@@ -17,7 +17,7 @@
     "@hookform/devtools": "3.1.0",
     "@hookform/resolvers": "2.5.2",
     "@prisma/client": "2.23.0",
-    "@tailwindcss/forms": "0.3.2",
+    "@tailwindcss/forms": "0.3.3",
     "loglevel": "1.7.1",
     "next": "10.2.3",
     "next-auth": "3.24.0",
