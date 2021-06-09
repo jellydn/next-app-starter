@@ -1,6 +1,7 @@
 module.exports = {
   automock: false,
   resetMocks: false,
+  testEnvironment: "jsdom",
   setupFiles: ["./setupJest.js"],
   collectCoverageFrom: [
     "**/*.{js,jsx,ts,tsx}",
