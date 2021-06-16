@@ -19,7 +19,7 @@
     "@prisma/client": "2.25.0",
     "@tailwindcss/forms": "0.3.3",
     "loglevel": "1.7.1",
-    "next": "10.2.3",
+    "next": "11.0.0",
     "next-auth": "3.27.0",
     "next-secure-headers": "2.2.0",
     "next-validations": "0.1.10",
