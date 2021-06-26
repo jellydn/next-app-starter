@@ -15,6 +15,7 @@
 
 - [NextJS: the React Framework for Production](https://nextjs.org/docs)
 - [Tailwindcss: rapidly build modern websites without ever leaving your HTML](https://tailwindcss.com/)
+- [Jotai: primitive and flexible state management for React.](https://docs.pmnd.rs/jotai/introduction)
 - [Prisma: next-generation ORM for Node.js and TypeScrip](https://www.prisma.io/)
 - [NextAuth.js: Authentication for Next.js](https://next-auth.js.org/)
 - [next-validations: NextJS API Validations, support Yup, Fastest-Validator, Joi, and more](https://next-validations.productsway.com/)
