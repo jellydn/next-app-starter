@@ -4,6 +4,7 @@ import { getSession } from "next-auth/client";
 
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
+import Counter from "../components/Counter";
 
 export default function Index() {
   return (
@@ -26,6 +27,7 @@ export default function Index() {
             Get started by editing{" "}
             <code className={styles.code}>pages/index.tsx</code>
           </p>
+          <Counter />
 
           <div className={styles.grid}>
             <a href="https://nextjs.org/docs" className={styles.card}>
@@ -38,6 +40,14 @@ export default function Index() {
               <p>
                 Rapidly build modern websites without ever leaving your HTML.
               </p>
+            </a>
+
+            <a
+              href="https://docs.pmnd.rs/jotai/introduction"
+              className={styles.card}
+            >
+              <h3>Jotai</h3>
+              <p>👻 Primitive and flexible state management for React.</p>
             </a>
 
             <a href="https://storybook.js.org/" className={styles.card}>

@@ -7,6 +7,7 @@ module.exports = {
   },
   extends: [
     "airbnb",
+    "next",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",

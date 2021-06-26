@@ -2,7 +2,9 @@ import { useForm } from "react-hook-form";
 import { DevTool } from "@hookform/devtools";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+
 import Layout from "../components/Layout";
+import Counter from "../components/Counter";
 
 const schema = yup.object().shape({
   email: yup
@@ -33,7 +35,7 @@ export default function Contact() {
       <DevTool control={control} placement="top-left" />
 
       <section className="relative text-gray-600 body-font">
-        <div className="container flex px-5 py-24 mx-auto">
+        <div className="container flex flex-col justify-center px-5 py-24 mx-auto">
           <div className="relative z-10 flex flex-col w-1/3 p-8 mx-auto mt-10 bg-white rounded-lg shadow-md">
             <h2 className="mb-1 text-lg font-medium text-gray-900 title-font">
               Feedback
@@ -86,6 +88,9 @@ export default function Contact() {
                 Submit
               </button>
             </form>
+          </div>
+          <div className="mx-auto mt-10">
+            <Counter />
           </div>
         </div>
       </section>

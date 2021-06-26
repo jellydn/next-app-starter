@@ -9002,6 +9002,11 @@ jose@^1.27.2:
   dependencies:
     "@panva/asn1.js" "^1.0.0"
 
+jotai@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.1.0.tgz#a0f1afd15a187ab5578250d54a42bac999bfbaf9"
+  integrity sha512-+c/bMxS/c1LgsOYVfevOYLAu+WEgn85TJhmBoNSNHjMV+mTKZY0ACSyCrX1yz8KialK4+Ggm6d7Ek3sTXy8UgA==
+
 js-levenshtein@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
@@ -13747,8 +13752,10 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
+    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
+    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"

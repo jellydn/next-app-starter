@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from "next/link";
 import { signIn, signOut, useSession } from "next-auth/client";
 import { HeaderProps } from "./types";
@@ -17,13 +18,12 @@ const Header: React.FC<HeaderProps> = ({ links = [] }) => {
   return (
     <header className="text-gray-600 body-font">
       <div className="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
-        <a
-          href="/"
-          className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0"
-        >
-          <img src="/logo.svg" alt="ProductsWay Logo" className="w-12 h-12" />
-          <span className="ml-3 text-xl">Next App Starter</span>
-        </a>
+        <Link href="/" passHref>
+          <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
+            <img src="/logo.svg" alt="ProductsWay Logo" className="w-12 h-12" />
+            <span className="ml-3 text-xl">Next App Starter</span>
+          </a>
+        </Link>
         <nav className="flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400">
           {links.map((link) => (
             <Link key={link.url} href={link.url}>
