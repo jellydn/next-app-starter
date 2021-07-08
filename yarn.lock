@@ -9944,10 +9944,10 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-next-auth@3.27.1:
-  version "3.27.1"
-  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.27.1.tgz#8158b88516bb4dd0916b73c3809e7fca86ef370e"
-  integrity sha512-uTAVwKypvvsZA5SSfdjRmpL2ZPnXciGcOZVZ3IJPeRdUte/IZKckL7vAS+4pSr5euhn2E4OyJ1FecYutBz/WGw==
+next-auth@3.27.3:
+  version "3.27.3"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.27.3.tgz#b155cfe07675378d35fd0018a8cef16aee68ff0a"
+  integrity sha512-U7LRrSc3ZBUKQcOpqJfVui80jPpx0MQAmtCPI7dJ9DjDg8AfxRBzk59oNCE5MLlbMDb83gEtOu+Mr5hi28qmCg==
   dependencies:
     "@babel/runtime" "^7.14.0"
     "@next-auth/prisma-legacy-adapter" "0.0.1-canary.127"
