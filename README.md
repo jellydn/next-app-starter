@@ -57,6 +57,10 @@ yarn storybook
 - Twitter: [@jellydn](https://twitter.com/jellydn)
 - Github: [@jellydn](https://github.com/jellydn)
 
+## Stargazers 🌟
+
+[![Stargazers repo roster for jellydn/next-app-starter](https://reporoster.com/stars/jellydn/next-app-starter)](https://github.com/jellydn/next-app-starter/stargazers)
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
