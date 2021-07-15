@@ -1712,10 +1712,10 @@
     lodash "^4.17.21"
     react-simple-animate "^3.3.12"
 
-"@hookform/resolvers@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.6.0.tgz#a4497fe33807d4ba09c34f41549f87a642550886"
-  integrity sha512-1Pbxjc4HEzATEcRsyDfkEQR/3OWaQwbemW9HTTYH+ZiLF2mzafl5Pn++65gwNnJSGzXUp5LIq3Nz2+Cz4m2U8A==
+"@hookform/resolvers@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.6.1.tgz#d41296521ccebba71f671e105b75cf36071fa293"
+  integrity sha512-7tml6bUUzdkk7tYb5LBk4i6ctV/1Rs4U5qVxrNBXZd8ZhxvsELI0TyYrnCK0XSlCo8Htlat8TOzxSZcKWOH5KQ==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
