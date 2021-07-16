@@ -18,7 +18,7 @@
     "@hookform/resolvers": "2.6.1",
     "@prisma/client": "2.27.0",
     "@tailwindcss/forms": "0.3.3",
-    "jotai": "1.2.0",
+    "jotai": "1.2.1",
     "loglevel": "1.7.1",
     "next": "11.0.1",
     "next-auth": "3.27.3",
