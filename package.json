@@ -63,7 +63,7 @@
     "kutty": "0.5.1",
     "lint-staged": "11.1.1",
     "msw": "0.32.1",
-    "postcss": "8.3.5",
+    "postcss": "8.3.6",
     "prettier": "2.3.2",
     "prisma": "2.27.0",
     "tailwindcss": "2.2.4",
@@ -79,7 +79,7 @@
     ]
   },
   "resolutions": {
-    "postcss": "8.3.5"
+    "postcss": "8.3.6"
   },
   "msw": {
     "workerDirectory": "public"
