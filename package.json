@@ -62,7 +62,7 @@
     "jest-fetch-mock": "3.0.3",
     "kutty": "0.5.1",
     "lint-staged": "11.1.1",
-    "msw": "0.33.1",
+    "msw": "0.33.2",
     "postcss": "8.3.6",
     "prettier": "2.3.2",
     "prisma": "2.28.0",
