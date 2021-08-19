@@ -61,7 +61,7 @@
     "jest": "27.0.6",
     "jest-fetch-mock": "3.0.3",
     "kutty": "0.5.1",
-    "lint-staged": "11.1.1",
+    "lint-staged": "11.1.2",
     "msw": "0.34.0",
     "postcss": "8.3.6",
     "prettier": "2.3.2",
