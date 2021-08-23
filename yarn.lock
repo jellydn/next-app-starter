@@ -9424,10 +9424,10 @@ klona@^2.0.4:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
 
-kutty@0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/kutty/-/kutty-0.5.1.tgz#771dc115a83c1a9fc43ef9363f7baed6fe83ebc0"
-  integrity sha512-XUaPlrWCqxI0ERqB/FfEzRATMdSGU9jdzKaQv3HXkfG+ZOYu0cnH0CSC4qBPd0us/xjYAZuJYtJsX6fHwmn3CQ==
+kutty@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/kutty/-/kutty-0.5.2.tgz#8fd569e699256eb390ea93c98ccda3770d12db88"
+  integrity sha512-rs5AONzrbCNK0Zz0d2RxqDI6Tr8fpR+wBPbbuC8s/kdAvy+WEoddvTJQIwfZl+dL9B9iALUce/n2XIsrsQjDPw==
 
 language-subtag-registry@~0.3.2:
   version "0.3.21"
