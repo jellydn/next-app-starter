@@ -12284,10 +12284,10 @@ table@^6.0.9:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
 
-tailwindcss@2.2.12:
-  version "2.2.12"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.2.12.tgz#878d01a20808c116d5f1b4d8a03cb856c007ea98"
-  integrity sha512-xB21XYyad1ZBATFHfSqe8hDHK7G+QLgErEy754h5gG+BcvrBoCBknaXGCDq9CXj9Azqz4zby3adCyY88kYRg0g==
+tailwindcss@2.2.14:
+  version "2.2.14"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.2.14.tgz#7f71ce6783a5e9768bd0e2ad1cb48eefba42e2ca"
+  integrity sha512-gQQPKbV8qb8GthGhJGbRR+lKluSpFq+L78CJZLmqumEBKPMDkD+l5wFlOTzlOhWozG4S1I9AUSaPkD1EfnNsug==
   dependencies:
     arg "^5.0.1"
     bytes "^3.0.0"
@@ -13143,10 +13143,8 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
