@@ -42,7 +42,7 @@
     "@types/react": "17.0.33",
     "@typescript-eslint/eslint-plugin": "5.2.0",
     "@typescript-eslint/parser": "5.2.0",
-    "autoprefixer": "10.3.7",
+    "autoprefixer": "10.4.0",
     "babel-eslint": "10.1.0",
     "babel-jest": "27.3.1",
     "babel-loader": "8.2.3",
