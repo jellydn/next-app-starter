@@ -11487,10 +11487,10 @@ react-popper@^2.2.4:
     react-fast-compare "^3.0.1"
     warning "^4.0.2"
 
-react-query@3.29.1:
-  version "3.29.1"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.29.1.tgz#d228687ca354b51a41b08e7fabb45a88f3b06357"
-  integrity sha512-EKhI4YokmB1Ccnv1vu8w5L9VpKUnznzLLpaMgaJx1xEnBvGTdUrpNFFxuGiDuiQOg3hi6TvSHVTfo/Nws3kTpg==
+react-query@3.30.0:
+  version "3.30.0"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.30.0.tgz#054fc0642f806ba4e8280c5eccf0c907b12cfdbf"
+  integrity sha512-u4Xcwb3mBecDWXPJk7eXGQ0JKxipZbkf69wS2B6tEjPFVT8q0rz1nQ3hWl2B/mUWkkY7WDwndeGJp3PhYgsbUA==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
@@ -13756,10 +13756,8 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
