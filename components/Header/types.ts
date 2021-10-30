@@ -1,6 +1,6 @@
 export interface HeaderProps {
-  links: Array<{
-    title: string;
-    url: string;
-  }>;
+    links: Array<{
+        title: string;
+        url: string;
+    }>;
 }

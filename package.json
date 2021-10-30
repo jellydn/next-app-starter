@@ -1,87 +1,88 @@
 {
-  "name": "next-app-starter",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "prepare": "husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "test": "jest"
-  },
-  "dependencies": {
-    "@headlessui/react": "1.4.1",
-    "@heroicons/react": "1.0.5",
-    "@hookform/devtools": "4.0.1",
-    "@hookform/resolvers": "2.8.2",
-    "@prisma/client": "3.3.0",
-    "@tailwindcss/forms": "0.3.4",
-    "jotai": "1.4.2",
-    "loglevel": "1.7.1",
-    "next": "12.0.1",
-    "next-auth": "3.29.0",
-    "next-secure-headers": "2.2.0",
-    "next-validations": "0.1.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-hook-form": "7.18.0",
-    "react-query": "3.29.1",
-    "yup": "0.32.11"
-  },
-  "devDependencies": {
-    "@babel/core": "7.16.0",
-    "@storybook/addon-actions": "6.3.12",
-    "@storybook/addon-essentials": "6.3.12",
-    "@storybook/addon-links": "6.3.12",
-    "@storybook/react": "6.3.12",
-    "@testing-library/jest-dom": "5.14.1",
-    "@testing-library/react": "12.1.2",
-    "@types/jest": "27.0.2",
-    "@types/react": "17.0.33",
-    "@typescript-eslint/eslint-plugin": "5.2.0",
-    "@typescript-eslint/parser": "5.2.0",
-    "autoprefixer": "10.4.0",
-    "babel-eslint": "10.1.0",
-    "babel-jest": "27.3.1",
-    "babel-loader": "8.2.3",
-    "eslint": "8.1.0",
-    "eslint-config-airbnb": "18.2.1",
-    "eslint-config-next": "12.0.1",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.25.2",
-    "eslint-plugin-jest": "25.2.2",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-promise": "5.1.1",
-    "eslint-plugin-react": "7.26.1",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "husky": "7.0.4",
-    "identity-obj-proxy": "3.0.0",
-    "jest": "27.3.1",
-    "jest-fetch-mock": "3.0.3",
-    "kutty": "0.5.2",
-    "lint-staged": "11.2.6",
-    "msw": "0.35.0",
-    "postcss": "8.3.11",
-    "prettier": "2.4.1",
-    "prisma": "3.3.0",
-    "tailwindcss": "2.2.19",
-    "typescript": "4.4.4"
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "eslint --cache --fix",
-      "prettier --write"
-    ],
-    "*.{css,json,md,yml,yaml}": [
-      "prettier --write"
-    ]
-  },
-  "resolutions": {
-    "postcss": "8.3.11"
-  },
-  "msw": {
-    "workerDirectory": "public"
-  }
+    "name": "next-app-starter",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "lint": "next lint",
+        "start": "next start",
+        "prepare": "husky install",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@headlessui/react": "1.4.1",
+        "@heroicons/react": "1.0.5",
+        "@hookform/devtools": "4.0.1",
+        "@hookform/resolvers": "2.8.2",
+        "@prisma/client": "3.3.0",
+        "@tailwindcss/forms": "0.3.4",
+        "fastest-validator": "^1.12.0",
+        "jotai": "1.4.2",
+        "loglevel": "1.7.1",
+        "next": "12.0.1",
+        "next-auth": "3.29.0",
+        "next-secure-headers": "2.2.0",
+        "next-validations": "0.1.10",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-hook-form": "7.18.0",
+        "react-query": "3.29.1",
+        "yup": "0.32.11"
+    },
+    "devDependencies": {
+        "@babel/core": "7.16.0",
+        "@storybook/addon-actions": "6.3.12",
+        "@storybook/addon-essentials": "6.3.12",
+        "@storybook/addon-links": "6.3.12",
+        "@storybook/react": "6.3.12",
+        "@testing-library/jest-dom": "5.14.1",
+        "@testing-library/react": "12.1.2",
+        "@trivago/prettier-plugin-sort-imports": "^3.0.0",
+        "@types/jest": "27.0.2",
+        "@types/react": "17.0.33",
+        "@typescript-eslint/eslint-plugin": "5.2.0",
+        "@typescript-eslint/parser": "5.2.0",
+        "autoprefixer": "10.4.0",
+        "babel-eslint": "10.1.0",
+        "babel-jest": "27.3.1",
+        "babel-loader": "8.2.3",
+        "eslint": "<8.0.0",
+        "eslint-config-next": "12.0.1",
+        "eslint-config-prettier": "8.3.0",
+        "husky": "7.0.4",
+        "identity-obj-proxy": "3.0.0",
+        "jest": "27.3.1",
+        "jest-fetch-mock": "3.0.3",
+        "kutty": "0.5.2",
+        "lint-staged": "11.2.6",
+        "msw": "0.35.0",
+        "postcss": "8.3.11",
+        "prettier": "^2.4.1",
+        "prisma": "3.3.0",
+        "tailwindcss": "2.2.19",
+        "typescript": "4.4.4"
+    },
+    "lint-staged": {
+        "*.{js,ts,tsx}": [
+            "eslint --cache --fix",
+            "prettier --write"
+        ],
+        "*.{css,json,md,yml,yaml}": [
+            "prettier --write"
+        ]
+    },
+    "resolutions": {
+        "postcss": "8.3.11"
+    },
+    "msw": {
+        "workerDirectory": "public"
+    },
+    "babel": {
+        "presets": [
+            "next/babel"
+        ]
+    }
 }

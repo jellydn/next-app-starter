@@ -1,3 +1,3 @@
 export interface ButtonProps {
-  size: "s" | "m" | "l";
+    size: 's' | 'm' | 'l';
 }

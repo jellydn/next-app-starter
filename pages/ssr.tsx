@@ -1,9 +1,9 @@
-import Index from "./index";
+import Index from './index';
 
 export default function SSR() {
-  return <Index />;
+    return <Index />;
 }
 
 export function getServerSideProps() {
-  return { props: { initialState: 1000 } };
+    return { props: { initialState: 1000 } };
 }

@@ -1,5 +1,5 @@
-import counterAtom from "./counter";
+import counterAtom from './counter';
 
 export default {
-  counterAtom,
+    counterAtom,
 };
