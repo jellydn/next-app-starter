@@ -38,7 +38,7 @@
         "@storybook/addon-essentials": "6.3.12",
         "@storybook/addon-links": "6.3.12",
         "@storybook/react": "6.3.12",
-        "@testing-library/jest-dom": "5.14.1",
+        "@testing-library/jest-dom": "5.15.0",
         "@testing-library/react": "12.1.2",
         "@trivago/prettier-plugin-sort-imports": "^3.0.0",
         "@types/jest": "27.0.2",
