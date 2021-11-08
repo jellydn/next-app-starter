@@ -13,7 +13,7 @@
         "test": "jest"
     },
     "dependencies": {
-        "@headlessui/react": "1.4.1",
+        "@headlessui/react": "1.4.2",
         "@heroicons/react": "1.0.5",
         "@hookform/devtools": "4.0.1",
         "@hookform/resolvers": "2.8.3",
