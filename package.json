@@ -20,7 +20,7 @@
         "@prisma/client": "3.5.0",
         "@tailwindcss/forms": "0.3.4",
         "fastest-validator": "1.12.0",
-        "jotai": "1.4.4",
+        "jotai": "1.4.5",
         "loglevel": "1.8.0",
         "next": "12.0.4",
         "next-auth": "3.29.0",
