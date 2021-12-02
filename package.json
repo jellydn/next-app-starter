@@ -54,7 +54,7 @@
         "eslint-config-prettier": "8.3.0",
         "husky": "7.0.4",
         "identity-obj-proxy": "3.0.0",
-        "jest": "27.4.2",
+        "jest": "27.4.3",
         "jest-fetch-mock": "3.0.3",
         "kutty": "0.5.2",
         "lint-staged": "12.1.2",
