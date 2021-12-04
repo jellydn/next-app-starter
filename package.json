@@ -16,7 +16,7 @@
         "@headlessui/react": "1.4.2",
         "@heroicons/react": "1.0.5",
         "@hookform/devtools": "4.0.1",
-        "@hookform/resolvers": "2.8.3",
+        "@hookform/resolvers": "2.8.4",
         "@prisma/client": "3.6.0",
         "@tailwindcss/forms": "0.3.4",
         "fastest-validator": "1.12.0",
