@@ -105,7 +105,7 @@ export default function Index() {
                         </a>
 
                         <a
-                            href="https://next-auth.js.org/"
+                            href="https://next-auth.js.org/v3/getting-started/introduction"
                             className={styles.card}
                         >
                             <h3>NextAuth.js</h3>
