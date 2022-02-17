@@ -33,7 +33,7 @@
         "yup": "0.32.11"
     },
     "devDependencies": {
-        "@babel/core": "7.17.4",
+        "@babel/core": "7.17.5",
         "@storybook/addon-actions": "6.4.19",
         "@storybook/addon-essentials": "6.4.19",
         "@storybook/addon-links": "6.4.19",
