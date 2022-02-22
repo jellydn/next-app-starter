@@ -17,7 +17,7 @@
         "@heroicons/react": "1.0.5",
         "@hookform/devtools": "4.0.2",
         "@hookform/resolvers": "2.8.8",
-        "@prisma/client": "3.9.2",
+        "@prisma/client": "3.10.0",
         "@tailwindcss/forms": "0.4.0",
         "fastest-validator": "1.12.0",
         "jotai": "1.6.0",
@@ -61,7 +61,7 @@
         "msw": "0.38.1",
         "postcss": "8.4.6",
         "prettier": "2.5.1",
-        "prisma": "3.9.2",
+        "prisma": "3.10.0",
         "tailwindcss": "3.0.23",
         "typescript": "4.5.5"
     },
