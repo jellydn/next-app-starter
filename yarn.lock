@@ -1791,10 +1791,10 @@
   resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-1.0.6.tgz#35dd26987228b39ef2316db3b1245c42eb19e324"
   integrity sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==
 
-"@hookform/devtools@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@hookform/devtools/-/devtools-4.0.2.tgz#8a504d21b156fa674a5bcd22279ee6c3c1901e3b"
-  integrity sha512-zihsPnUscEt6uERnVdBSqBdotpemQ0EDfC6F1J69o7EsToqHnMmeym5Kb7GnDDHxYsURgotFgQYnkCM4c4QvsA==
+"@hookform/devtools@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@hookform/devtools/-/devtools-4.1.0.tgz#00b2083c704ae855d3485d7336ce3d18e44e4d46"
+  integrity sha512-0Um6+ExWyM+09ox903chU9hGZRdF6SiS6mILyNIbRrJJWl71omPuN7tvWkTCzA56wf4D7I3wUM2Nc00t5+scEQ==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.3.0"
