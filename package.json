@@ -42,7 +42,7 @@
         "@testing-library/react": "13.0.0",
         "@trivago/prettier-plugin-sort-imports": "3.2.0",
         "@types/jest": "27.4.1",
-        "@types/react": "17.0.43",
+        "@types/react": "17.0.44",
         "@typescript-eslint/eslint-plugin": "5.18.0",
         "@typescript-eslint/parser": "5.18.0",
         "autoprefixer": "10.4.4",
