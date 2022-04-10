@@ -1,6 +1,7 @@
 import { GetServerSideProps } from 'next';
 import { getSession } from 'next-auth/client';
 import Head from 'next/head';
+import Image from 'next/image';
 
 import Counter from '../components/Counter';
 import Layout from '../components/Layout';
@@ -131,9 +132,11 @@ export default function Index() {
                         rel="noopener noreferrer"
                     >
                         Powered by{' '}
-                        <img
+                        <Image
                             src="/logo.svg"
                             alt="ProductsWay Logo"
+                            width={30}
+                            height={40}
                             className={styles.logo}
                         />
                     </a>
@@ -141,8 +144,10 @@ export default function Index() {
                         className="pl-2"
                         href="https://vercel.com/new/git/external?repository-url=https://github.com/jellydn/next-app-starter/"
                     >
-                        <img
+                        <Image
                             src="https://vercel.com/button"
+                            width={100}
+                            height={40}
                             alt="Deploy with Vercel"
                         />
                     </a>

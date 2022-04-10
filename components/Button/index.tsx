@@ -6,7 +6,11 @@ const SIZES = {
     l: 'px-8 py-4 text-xl',
 };
 
-const Button: React.FC<ButtonProps> = ({ children, size, ...rest }) => (
+const Button: React.FC<React.PropsWithChildren<ButtonProps>> = ({
+    children,
+    size,
+    ...rest
+}) => (
     <button
         {...rest}
         type="button"

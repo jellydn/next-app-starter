@@ -5,7 +5,9 @@ import Link from 'next/link';
 import styles from './header.module.css';
 import { HeaderProps } from './types';
 
-const Header: React.FC<HeaderProps> = ({ links = [] }) => {
+const Header: React.FC<React.PropsWithChildren<HeaderProps>> = ({
+    links = [],
+}) => {
     const [session, loading] = useSession();
 
     if (loading) {

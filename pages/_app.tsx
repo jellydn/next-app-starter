@@ -29,6 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             initialValues={initialState && [[store.counterAtom, initialState]]}
         >
             <AuthProvider session={pageProps.session}>
+                {/* @ts-expect-error Type error: Type '{ children: Element[]; client: QueryClient; }' is not assignable to type 'IntrinsicAttributes & QueryClientProviderProps'. */}
                 <QueryClientProvider client={queryClient}>
                     <Component {...pageProps} />
                     <ReactQueryDevtools initialIsOpen={false} />
