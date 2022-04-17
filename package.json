@@ -28,7 +28,7 @@
         "next-validations": "0.2.0",
         "react": "18.0.0",
         "react-dom": "18.0.0",
-        "react-hook-form": "7.29.0",
+        "react-hook-form": "7.30.0",
         "react-query": "3.34.20",
         "yup": "0.32.11"
     },
