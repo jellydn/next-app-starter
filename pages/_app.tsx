@@ -1,4 +1,4 @@
-import { Provider } from 'jotai';
+import { Atom, Provider } from 'jotai';
 import { Provider as AuthProvider } from 'next-auth/client';
 import type { AppProps } from 'next/app';
 import { QueryClient, QueryClientProvider } from 'react-query';
@@ -25,8 +25,12 @@ function MyApp({ Component, pageProps }: AppProps) {
     const { initialState } = pageProps;
     return (
         <Provider
-            // @ts-expect-error Type 'any[][]' is not assignable to type 'Iterable<readonly [Atom<unknown>, unknown]>'.
-            initialValues={initialState && [[store.counterAtom, initialState]]}
+            initialValues={
+                initialState &&
+                ([[store.counterAtom, initialState]] as Iterable<
+                    readonly [Atom<unknown>, unknown]
+                >)
+            }
         >
             <AuthProvider session={pageProps.session}>
                 <QueryClientProvider client={queryClient}>
