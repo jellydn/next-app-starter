@@ -10030,10 +10030,10 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-next-auth@3.29.1:
-  version "3.29.1"
-  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.29.1.tgz#24870b7aa70046a98cb4000d382e3685e9b753e4"
-  integrity sha512-Ipiywz2k+TWluqc9sle0zwh/GYxDjpGv/2ZuAxZBTfwL62pbyHX3JxMAE/frHYWDE0ZQ9bJLD67vP+Won2+SkA==
+next-auth@3.29.3:
+  version "3.29.3"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.29.3.tgz#634285584e9030b74f698423745dd719c815a12f"
+  integrity sha512-OoG5y8oFV7MWF2VVs20AfdF41ndoXtPBFIlLfCHbrvFWHfPGsjnyAnhDxyJZX91Taknd4MD3zrCGOlBJKrLU7A==
   dependencies:
     "@babel/runtime" "^7.14.0"
     "@next-auth/prisma-legacy-adapter" "0.1.2"
@@ -13508,10 +13508,8 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
