@@ -38,7 +38,7 @@
         "@hookform/devtools": "4.1.0",
         "@hookform/resolvers": "2.8.10",
         "@prisma/client": "3.14.0",
-        "@tailwindcss/forms": "0.5.1",
+        "@tailwindcss/forms": "0.5.2",
         "fastest-validator": "1.12.0",
         "jotai": "1.6.6",
         "loglevel": "1.8.0",
