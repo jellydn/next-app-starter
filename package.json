@@ -49,7 +49,7 @@
         "react": "18.1.0",
         "react-dom": "18.1.0",
         "react-hook-form": "7.31.3",
-        "react-query": "3.39.0",
+        "react-query": "3.39.1",
         "yup": "0.32.11"
     },
     "devDependencies": {
