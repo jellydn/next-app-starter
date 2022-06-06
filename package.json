@@ -88,7 +88,7 @@
         "tailwindcss": "3.0.24",
         "typescript": "4.7.3",
         "vite": "^2.9.9",
-        "vitest": "0.13.1"
+        "vitest": "0.14.0"
     },
     "msw": {
         "workerDirectory": "public"
