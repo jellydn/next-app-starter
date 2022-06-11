@@ -14,7 +14,7 @@ const schema = yup.object().shape({
     message: yup.string().required('Message is required'),
 });
 
-type FormData = {
+type FormValue = {
     email: string;
     message: string;
 };
@@ -25,10 +25,10 @@ export default function Contact() {
         handleSubmit,
         control,
         formState: { errors },
-    } = useForm<FormData>({
+    } = useForm<FormValue>({
         resolver: yupResolver(schema),
     });
-    const onSubmit = (data) => console.log(data);
+    const onSubmit = (data: FormValue) => console.log(data);
 
     return (
         <Layout>
