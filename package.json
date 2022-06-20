@@ -33,7 +33,7 @@
         "postcss": "8.4.14"
     },
     "dependencies": {
-        "@headlessui/react": "1.6.4",
+        "@headlessui/react": "1.6.5",
         "@heroicons/react": "1.0.6",
         "@hookform/devtools": "4.1.0",
         "@hookform/resolvers": "2.9.1",
