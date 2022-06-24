@@ -2055,10 +2055,10 @@
     lodash "^4.17.21"
     react-simple-animate "^3.3.12"
 
-"@hookform/resolvers@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.9.1.tgz#59121e38d8fc95d2fd1f41c9631393cd21e10b65"
-  integrity sha512-80lyFFcExEB7A09PFnl8k7A3obQyDF6MyO/FThtwetk+MTedYMs08Aqf7mgWnOawFGyz5QF+TZXJSYiIZW2tEg==
+"@hookform/resolvers@2.9.2":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.9.2.tgz#d21f145ea7331779e10269b4c1ccf599ead5c5ae"
+  integrity sha512-GzAgrqeCQ3o8qfB3ojX/S5mgySrMLCwoXhxIPQBGp0OCGlD/uqbzJYMolPAMHG4Hu91fdjIAbqZeFOJXbBDMBw==
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.2"
