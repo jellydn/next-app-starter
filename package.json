@@ -33,22 +33,22 @@
         "postcss": "8.4.14"
     },
     "dependencies": {
-        "@headlessui/react": "1.6.5",
+        "@headlessui/react": "1.6.6",
         "@heroicons/react": "1.0.6",
         "@hookform/devtools": "4.1.1",
-        "@hookform/resolvers": "2.9.4",
+        "@hookform/resolvers": "2.9.5",
         "@prisma/client": "4.0.0",
         "@tailwindcss/forms": "0.5.2",
         "fastest-validator": "1.12.0",
-        "jotai": "1.7.3",
+        "jotai": "1.7.4",
         "loglevel": "1.8.0",
-        "next": "12.2.0",
+        "next": "12.2.1",
         "next-auth": "3.29.8",
         "next-secure-headers": "2.2.0",
         "next-validations": "0.2.0",
         "react": "18.2.0",
         "react-dom": "18.2.0",
-        "react-hook-form": "7.33.0",
+        "react-hook-form": "7.33.1",
         "react-query": "3.39.1",
         "yup": "0.32.11"
     },
@@ -72,7 +72,7 @@
         "babel-loader": "8.2.5",
         "c8": "^7.11.3",
         "eslint": "8.19.0",
-        "eslint-config-next": "12.2.0",
+        "eslint-config-next": "12.2.1",
         "eslint-config-prettier": "8.5.0",
         "husky": "8.0.1",
         "identity-obj-proxy": "3.0.0",
@@ -85,10 +85,10 @@
         "prettier": "2.7.1",
         "prisma": "4.0.0",
         "sort-package-json": "1.57.0",
-        "tailwindcss": "3.1.4",
+        "tailwindcss": "3.1.5",
         "typescript": "4.7.4",
-        "vite": "2.9.12",
-        "vitest": "0.16.0"
+        "vite": "2.9.14",
+        "vitest": "0.17.1"
     },
     "msw": {
         "workerDirectory": "public"
