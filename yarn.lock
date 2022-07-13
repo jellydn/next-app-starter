@@ -2057,19 +2057,19 @@
   resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-1.0.6.tgz#35dd26987228b39ef2316db3b1245c42eb19e324"
   integrity sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==
 
-"@hookform/devtools@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@hookform/devtools/-/devtools-4.2.0.tgz#ec551849601d3feac2b3be27c88107a8f4d81617"
-  integrity sha512-+MY5L8siEOi4ruSphEz8XWoEh4VpmeoqkTfMsWn/9dsALWZyTF/sjKzr5L+lIDiikkY0DoleSyUDOsi7TTodBA==
+"@hookform/devtools@4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@hookform/devtools/-/devtools-4.2.1.tgz#9366737d822be6504382fef2c118b622398707d8"
+  integrity sha512-sP/+SUbC7SQRxtGZX5Uce0PDzNkio2+tzlXr9xiCxIJ2nnIV2YAVTwjP5I4dmaJj8PtNPHMStoT51JLkCvG2KQ==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.3.0"
     "@types/lodash" "^4.14.168"
     little-state-machine "^4.1.0"
     lodash "^4.17.21"
-    nanoid "^4.0.0"
     react-simple-animate "^3.3.12"
     use-deep-compare-effect "^1.8.1"
+    uuid "^8.3.2"
 
 "@hookform/resolvers@2.9.5":
   version "2.9.5"
@@ -10235,11 +10235,6 @@ nanoid@^3.3.1, nanoid@^3.3.4:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
 
-nanoid@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-4.0.0.tgz#6e144dee117609232c3f415c34b0e550e64999a5"
-  integrity sha512-IgBP8piMxe/gf73RTQx7hmnhwz0aaEXYakvqZyE302IXW3HyVNhdNGC+O2MwMAVhLEnvXlvKtGbtJf6wvHihCg==
-
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -13790,6 +13785,11 @@ uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
