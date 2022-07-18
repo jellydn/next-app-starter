@@ -2,13 +2,13 @@
 /* tslint:disable */
 
 /**
- * Mock Service Worker (0.43.1).
+ * Mock Service Worker (0.44.1).
  * @see https://github.com/mswjs/msw
  * - Please do NOT modify this file.
  * - Please do NOT serve this file on production.
  */
 
-const INTEGRITY_CHECKSUM = 'c9450df6e4dc5e45740c3b0b640727a2'
+const INTEGRITY_CHECKSUM = 'df0d85222361310ecbe1792c606e08f2'
 const activeClientIds = new Set()
 
 self.addEventListener('install', function () {
@@ -316,7 +316,7 @@ function sendToClient(client, message) {
       resolve(event.data)
     }
 
-    client.postMessage(JSON.stringify(message), [channel.port2])
+    client.postMessage(message, [channel.port2])
   })
 }
 
