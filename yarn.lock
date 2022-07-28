@@ -2459,10 +2459,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@prisma/client@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-4.1.0.tgz#7c5341b2276c083821e432536ff97d8cc8f8b936"
-  integrity sha512-MvfPGAd42vHTiCYxwS6N+2U3F+ukoJ48D2QRnX1zSPJHBkh1CBtshl75daKzvVfgQwSouzSQeugKDej5di+E/g==
+"@prisma/client@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-4.1.1.tgz#dcb1118397deb8247fbe39a1f3eee5606648adf8"
+  integrity sha512-2pXuIUYxHv5H9o6QTa1VIsl4yMgsAjKQOitlo8WVTB+vo73rmMJITBPavdGUZSWUc7adMkFzEV3y5rVTUQr77Q==
   dependencies:
     "@prisma/engines-version" "4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8"
 
