@@ -5,6 +5,8 @@
 
 > Another awesome starter for your app
 
+[![ITMan - NextJs Course!](https://i.ytimg.com/vi/CwjySicuyGQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB1EtLZ4uPu5V_IEKBZ4jQQsDlIzg")](https://www.youtube-nocookie.com/embed/videoseries?list=PLOdXIcVPTyB_2IiS36upNkEw2fLhyb5D6)
+
 ## 🏠 [Homepage](https://github.com/jellydn/next-app-starter)
 
 ### ✨ [Demo](https://next-app-starter.vercel.app)
