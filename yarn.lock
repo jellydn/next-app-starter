@@ -3893,10 +3893,10 @@
     magic-string "^0.26.2"
     react-refresh "^0.14.0"
 
-"@vitest/ui@0.20.1":
-  version "0.20.1"
-  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.20.1.tgz#c3d2f230cd1a3dfca7bfb6cfc5f8533820300d13"
-  integrity sha512-QDrjp1BxaK5ObGnAXXIKw5v7XdvCPaCE2KUjEq7p3jVgXIYps8OUupTk2s8mbTCyywwu4Q4NCAerbA7q+4IoGw==
+"@vitest/ui@0.20.2":
+  version "0.20.2"
+  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.20.2.tgz#5575a7b6b10f4d30f77c4d30ff673b1e1048ec30"
+  integrity sha512-jMQzuxsiZ7SnEYQdWJwyNav/LbakR2rVJ45XFGK3e/xlhqRYV2hI/byyl4iw07kM9kCY43aK7N36i/53O5I+Vg==
   dependencies:
     sirv "^2.0.2"
 
