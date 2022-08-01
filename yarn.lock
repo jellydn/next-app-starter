@@ -9470,10 +9470,10 @@ jose@^1.27.2:
   dependencies:
     "@panva/asn1.js" "^1.0.0"
 
-jotai@1.7.6:
-  version "1.7.6"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.7.6.tgz#234165b0b139e11ef40e660e8fa1b420b23bb24b"
-  integrity sha512-D3R5f6OvwUPUyTPQY3wGP800nb6bDEOl/mqftjxg3gcHVITeFcldr9W9IBK+gXsow357vhNXuci/LfD+rl92PA==
+jotai@1.7.7:
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.7.7.tgz#c1f4bcb2fb02375c3042bd7ae460c645f3196704"
+  integrity sha512-UK1fzkR2vq62rUL7iHlMkjkKj49AEU9iOm2xwfgPAeMJ8GIzKrEiKQC81w+O4dlNCjmCIi9UVkV75dADqccVCw==
 
 js-levenshtein@^1.1.6:
   version "1.1.6"
