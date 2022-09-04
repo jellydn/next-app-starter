@@ -59,7 +59,7 @@
         "@storybook/addon-links": "6.5.10",
         "@storybook/react": "6.5.10",
         "@testing-library/jest-dom": "5.16.5",
-        "@testing-library/react": "13.3.0",
+        "@testing-library/react": "13.4.0",
         "@trivago/prettier-plugin-sort-imports": "3.3.0",
         "@types/react": "18.0.18",
         "@typescript-eslint/eslint-plugin": "5.36.1",
