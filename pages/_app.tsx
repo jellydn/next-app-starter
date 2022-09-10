@@ -21,7 +21,7 @@ if (process.env.NEXT_PUBLIC_API_MOCKING === 'yes') {
 
 const queryClient = new QueryClient();
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps<any>) {
     const { initialState } = pageProps;
     return (
         <Provider
