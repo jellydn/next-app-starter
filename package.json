@@ -34,7 +34,7 @@
     },
     "dependencies": {
         "@headlessui/react": "1.7.3",
-        "@heroicons/react": "2.0.11",
+        "@heroicons/react": "2.0.12",
         "@hookform/devtools": "4.2.2",
         "@hookform/resolvers": "2.9.8",
         "@prisma/client": "4.4.0",
