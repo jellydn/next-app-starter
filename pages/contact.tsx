@@ -2,6 +2,7 @@ import { DevTool } from '@hookform/devtools';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
+import Button from '../components/Button';
 
 import Counter from '../components/Counter';
 import Layout from '../components/Layout';
@@ -85,12 +86,13 @@ export default function Contact() {
                                     </p>
                                 )}
                             </div>
-                            <button
+                            <Button
                                 type="submit"
-                                className="px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600"
+                intent="primary"
+                                // className="px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600"
                             >
                                 Submit
-                            </button>
+                            </Button>
                         </form>
                     </div>
                     <div className="mx-auto mt-10">

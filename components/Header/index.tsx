@@ -5,6 +5,7 @@ import Image from "next/image";
 
 import styles from "./header.module.css";
 import { HeaderProps } from "./types";
+import Button from "../Button";
 
 const Header: React.FC<React.PropsWithChildren<HeaderProps>> = ({
   links = [],
@@ -50,10 +51,10 @@ const Header: React.FC<React.PropsWithChildren<HeaderProps>> = ({
           ))}
         </nav>
         {!session && (
-          <button
+          <Button
             type="button"
             onClick={() => signIn()}
-            className="inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200 md:mt-0"
+            size="m"
           >
             Sign In
             <svg
@@ -67,7 +68,7 @@ const Header: React.FC<React.PropsWithChildren<HeaderProps>> = ({
             >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </button>
+          </Button>
         )}
 
         {session && (
