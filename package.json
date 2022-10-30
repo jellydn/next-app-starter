@@ -77,7 +77,7 @@
         "husky": "8.0.1",
         "identity-obj-proxy": "3.0.0",
         "jest-fetch-mock": "3.0.3",
-        "jsdom": "20.0.1",
+        "jsdom": "20.0.2",
         "kutty": "0.6.0",
         "lint-staged": "13.0.3",
         "msw": "0.47.4",
