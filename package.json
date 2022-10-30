@@ -4,15 +4,15 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "build-storybook": "storybook build",
     "coverage": "vitest run --coverage",
     "dev": "next dev",
     "dev:turbo": "next dev --turbo",
     "prepare": "husky install",
     "start": "next start",
-    "storybook": "storybook dev -p 6006",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
@@ -55,11 +55,12 @@
   },
   "devDependencies": {
     "@babel/core": "7.19.6",
-    "@storybook/addon-actions": "7.0.0-alpha.46",
-    "@storybook/addon-essentials": "7.0.0-alpha.46",
-    "@storybook/addon-links": "7.0.0-alpha.46",
-    "@storybook/react": "7.0.0-alpha.46",
-    "@storybook/react-webpack5": "7.0.0-alpha.46",
+    "@storybook/addon-essentials": "^7.0.0-alpha.46",
+    "@storybook/addon-interactions": "^7.0.0-alpha.46",
+    "@storybook/addon-links": "^7.0.0-alpha.46",
+    "@storybook/nextjs": "^7.0.0-alpha.46",
+    "@storybook/react": "^7.0.0-alpha.46",
+    "@storybook/testing-library": "^0.0.13",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@trivago/prettier-plugin-sort-imports": "3.4.0",
