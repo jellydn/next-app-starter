@@ -41,11 +41,12 @@ interface Props extends ButtonProps, ButtonHTMLAttributes<{}> {}
 const Button: React.FC<React.PropsWithChildren<Props>> = ({
   children,
   size,
+  type="button",
   ...rest
 }) => (
   <button
     {...rest}
-    type="button"
+    type={type}
     className={button({ size })}
   >
     {children}
