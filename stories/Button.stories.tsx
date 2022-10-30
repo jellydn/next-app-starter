@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react';
+import { StoryFn } from '@storybook/react';
 
 import Button, { ButtonProps } from '../components/Button';
 
@@ -7,7 +7,7 @@ export default {
     argTypes: { onClick: { action: 'clicked' } },
 };
 
-const Template: Story<ButtonProps> = (args) => (
+const Template: StoryFn<ButtonProps> = (args) => (
     <Button {...args}>Button </Button>
 );
 
