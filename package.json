@@ -68,7 +68,7 @@
     "@typescript-eslint/eslint-plugin": "5.42.0",
     "@typescript-eslint/parser": "5.42.0",
     "@vitejs/plugin-react": "2.2.0",
-    "@vitest/ui": "0.24.5",
+    "@vitest/ui": "0.25.0",
     "autoprefixer": "10.4.13",
     "babel-eslint": "10.1.0",
     "babel-jest": "29.2.2",
@@ -94,7 +94,7 @@
     "tailwindcss": "3.2.2",
     "typescript": "4.8.4",
     "vite": "3.2.3",
-    "vitest": "0.24.5"
+    "vitest": "0.25.0"
   },
   "msw": {
     "workerDirectory": "public"
