@@ -17,7 +17,8 @@
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --cache --fix",
-      "prettier --write"
+      "prettier --write",
+      "rustywind --write"
     ],
     "*.{css,json,md,yml,yaml}": [
       "prettier --write"
@@ -89,6 +90,7 @@
     "postcss": "8.4.19",
     "prettier": "2.7.1",
     "prisma": "4.6.1",
+    "rustywind": "^0.15.1",
     "sort-package-json": "2.1.0",
     "storybook": "7.0.0-alpha.49",
     "tailwindcss": "3.2.4",
