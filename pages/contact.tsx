@@ -37,7 +37,7 @@ export default function Contact() {
 
             <section className="relative text-gray-600 body-font">
                 <div className="container flex flex-col justify-center py-24 px-5 mx-auto">
-                    <div className="flex relative z-10 flex-col p-8 mx-auto mt-10 w-1/3 bg-white rounded-lg shadow-md">
+                    <div className="flex relative z-10 flex-col p-8 mx-auto mt-10 bg-white rounded-lg shadow-md">
                         <h2 className="mb-1 text-lg font-medium text-gray-900 title-font">
                             Feedback
                         </h2>
