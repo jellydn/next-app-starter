@@ -42,7 +42,7 @@
     "@tailwindcss/forms": "0.5.3",
     "class-variance-authority": "0.3.0",
     "fastest-validator": "1.15.0",
-    "jotai": "1.9.2",
+    "jotai": "1.10.0",
     "loglevel": "1.8.1",
     "next": "13.0.3",
     "next-auth": "3.29.10",
