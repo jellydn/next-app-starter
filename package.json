@@ -57,10 +57,10 @@
   "devDependencies": {
     "@babel/core": "7.20.2",
     "@storybook/addon-essentials": "7.0.0-alpha.52",
-    "@storybook/addon-interactions": "7.0.0-alpha.52",
+    "@storybook/addon-interactions": "7.0.0-alpha.53",
     "@storybook/addon-links": "7.0.0-alpha.52",
-    "@storybook/nextjs": "7.0.0-alpha.52",
-    "@storybook/react": "7.0.0-alpha.52",
+    "@storybook/nextjs": "7.0.0-alpha.53",
+    "@storybook/react": "7.0.0-alpha.53",
     "@storybook/testing-library": "0.0.13",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
