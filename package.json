@@ -50,12 +50,12 @@
     "next-validations": "0.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-hook-form": "7.39.6",
+    "react-hook-form": "7.39.7",
     "react-query": "3.39.2",
     "yup": "0.32.11"
   },
   "devDependencies": {
-    "@babel/core": "7.20.2",
+    "@babel/core": "7.20.5",
     "@storybook/addon-essentials": "7.0.0-alpha.54",
     "@storybook/addon-interactions": "7.0.0-alpha.54",
     "@storybook/addon-links": "7.0.0-alpha.54",
