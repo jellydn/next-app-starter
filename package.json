@@ -41,7 +41,7 @@
     "@prisma/client": "4.7.1",
     "@tailwindcss/forms": "0.5.3",
     "class-variance-authority": "0.4.0",
-    "fastest-validator": "1.15.0",
+    "fastest-validator": "1.16.0",
     "jotai": "1.11.2",
     "loglevel": "1.8.1",
     "next": "13.0.7",
