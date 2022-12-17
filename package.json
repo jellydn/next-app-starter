@@ -50,7 +50,7 @@
     "next-validations": "0.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-hook-form": "7.40.0",
+    "react-hook-form": "7.41.0",
     "react-query": "3.39.2",
     "yup": "0.32.11"
   },
@@ -76,7 +76,7 @@
     "babel-loader": "9.1.0",
     "c8": "7.12.0",
     "concurrently": "7.6.0",
-    "eslint": "8.29.0",
+    "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-storybook": "0.6.8",
