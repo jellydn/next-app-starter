@@ -106,7 +106,7 @@ export default function Index() {
                         </a>
 
                         <a
-                            href="https://next-auth.js.org/v3/getting-started/introduction"
+                            href="https://next-auth.js.org/"
                             className={styles.card}
                         >
                             <h3>NextAuth.js</h3>
@@ -120,6 +120,13 @@ export default function Index() {
                             <h3>Prisma</h3>
                             <p>
                                 Next-generation ORM for Node.js and TypeScript
+                            </p>
+                        </a>
+                        <a href="https://www.zod.dev/" className={styles.card}>
+                            <h3>Zod</h3>
+                            <p>
+                                TypeScript-first schema validation with static
+                                type inference
                             </p>
                         </a>
                     </div>
