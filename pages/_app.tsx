@@ -1,8 +1,8 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { Atom, Provider } from 'jotai';
-import { Provider as AuthProvider } from 'next-auth/client';
+import { SessionProvider } from 'next-auth/react';
 import type { AppProps } from 'next/app';
-import { QueryClient, QueryClientProvider } from 'react-query';
-import { ReactQueryDevtools } from 'react-query/devtools';
 
 import store from '../store';
 import '../styles/globals.css';
@@ -32,12 +32,15 @@ function MyApp({ Component, pageProps }: AppProps<any>) {
                 >)
             }
         >
-            <AuthProvider session={pageProps.session}>
+            <SessionProvider
+                session={pageProps.session}
+                refetchInterval={5 * 60}
+            >
                 <QueryClientProvider client={queryClient}>
                     <Component {...pageProps} />
                     <ReactQueryDevtools initialIsOpen={false} />
                 </QueryClientProvider>
-            </AuthProvider>
+            </SessionProvider>
         </Provider>
     );
 }

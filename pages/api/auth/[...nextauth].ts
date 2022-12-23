@@ -1,25 +1,15 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaAdapter } from '@next-auth/prisma-adapter';
+import * as Prisma from '@prisma/client';
 import NextAuth from 'next-auth';
-import Adapters from 'next-auth/adapters';
-import Providers from 'next-auth/providers';
+import EmailProvider from 'next-auth/providers/email';
 
-const prisma = new PrismaClient();
-
+const prisma = new Prisma.PrismaClient();
 export default NextAuth({
     providers: [
-        Providers.Email({
+        EmailProvider({
             server: process.env.EMAIL_SERVER,
             from: process.env.EMAIL_FROM,
         }),
     ],
-    database: process.env.DATABASE_URL,
-    adapter: Adapters.Prisma.Adapter({
-        prisma,
-        modelMapping: {
-            User: 'user',
-            Account: 'account',
-            Session: 'session',
-            VerificationRequest: 'verificationRequest',
-        },
-    }),
+    adapter: PrismaAdapter(prisma),
 });

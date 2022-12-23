@@ -1,14 +1,14 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { withValidation } from 'next-validations';
-import * as yup from 'yup';
+import { z } from 'zod';
 
-const schema = yup.object().shape({
-    name: yup.string().required(),
+const schema = z.object({
+    name: z.string().min(5),
 });
 
 const validate = withValidation({
     schema,
-    type: 'Yup',
+    type: 'Zod',
     mode: 'query',
 });
 
