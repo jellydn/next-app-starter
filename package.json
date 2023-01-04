@@ -55,7 +55,7 @@
         "zod": "3.20.2"
     },
     "devDependencies": {
-        "@babel/core": "7.20.7",
+        "@babel/core": "7.20.12",
         "@storybook/addon-essentials": "7.0.0-beta.19",
         "@storybook/addon-interactions": "7.0.0-beta.19",
         "@storybook/addon-links": "7.0.0-beta.19",
@@ -73,7 +73,7 @@
         "autoprefixer": "10.4.13",
         "babel-eslint": "10.1.0",
         "babel-jest": "29.3.1",
-        "babel-loader": "9.1.0",
+        "babel-loader": "9.1.2",
         "c8": "7.12.0",
         "concurrently": "7.6.0",
         "eslint": "8.31.0",
