@@ -56,11 +56,11 @@
     },
     "devDependencies": {
         "@babel/core": "7.20.12",
-        "@storybook/addon-essentials": "7.0.0-beta.28",
-        "@storybook/addon-interactions": "7.0.0-beta.28",
-        "@storybook/addon-links": "7.0.0-beta.28",
-        "@storybook/nextjs": "7.0.0-beta.28",
-        "@storybook/react": "7.0.0-beta.28",
+        "@storybook/addon-essentials": "7.0.0-beta.29",
+        "@storybook/addon-interactions": "7.0.0-beta.29",
+        "@storybook/addon-links": "7.0.0-beta.29",
+        "@storybook/nextjs": "7.0.0-beta.29",
+        "@storybook/react": "7.0.0-beta.29",
         "@storybook/testing-library": "0.0.13",
         "@testing-library/jest-dom": "5.16.5",
         "@testing-library/react": "13.4.0",
@@ -69,7 +69,7 @@
         "@typescript-eslint/eslint-plugin": "5.48.2",
         "@typescript-eslint/parser": "5.48.2",
         "@vitejs/plugin-react": "3.0.1",
-        "@vitest/ui": "0.27.1",
+        "@vitest/ui": "0.27.2",
         "autoprefixer": "10.4.13",
         "babel-eslint": "10.1.0",
         "babel-jest": "29.3.1",
@@ -92,11 +92,11 @@
         "prisma": "4.8.1",
         "rustywind": "0.15.3",
         "sort-package-json": "2.1.0",
-        "storybook": "7.0.0-beta.28",
+        "storybook": "7.0.0-beta.29",
         "tailwindcss": "3.2.4",
         "typescript": "4.9.4",
         "vite": "4.0.4",
-        "vitest": "0.27.1"
+        "vitest": "0.27.2"
     },
     "msw": {
         "workerDirectory": "public"
