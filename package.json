@@ -31,7 +31,7 @@
         ]
     },
     "dependencies": {
-        "@headlessui/react": "1.7.7",
+        "@headlessui/react": "1.7.8",
         "@heroicons/react": "2.0.14",
         "@hookform/devtools": "4.3.0",
         "@hookform/resolvers": "2.9.10",
@@ -48,7 +48,7 @@
         "next-auth": "4.18.10",
         "next-secure-headers": "2.2.0",
         "next-validations": "0.3.1",
-        "nodemailer": "6.9.0",
+        "nodemailer": "6.9.1",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "react-hook-form": "7.42.1",
@@ -69,7 +69,7 @@
         "@typescript-eslint/eslint-plugin": "5.49.0",
         "@typescript-eslint/parser": "5.49.0",
         "@vitejs/plugin-react": "3.0.1",
-        "@vitest/ui": "0.28.2",
+        "@vitest/ui": "0.28.3",
         "autoprefixer": "10.4.13",
         "babel-eslint": "10.1.0",
         "babel-jest": "29.4.1",
@@ -96,7 +96,7 @@
         "tailwindcss": "3.2.4",
         "typescript": "4.9.4",
         "vite": "4.0.4",
-        "vitest": "0.28.2"
+        "vitest": "0.28.3"
     },
     "msw": {
         "workerDirectory": "public"
