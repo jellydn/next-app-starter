@@ -85,7 +85,7 @@
         "jest-fetch-mock": "3.0.3",
         "jsdom": "21.1.0",
         "kutty": "0.6.0",
-        "msw": "0.49.3",
+        "msw": "1.1.0",
         "nano-staged": "0.8.0",
         "postcss": "8.4.21",
         "prettier": "2.8.3",
