@@ -25,6 +25,7 @@ function MyApp({ Component, pageProps }: AppProps<any>) {
     const { initialState } = pageProps;
     return (
         <Provider
+            // @ts-ignore
             initialValues={
                 initialState &&
                 ([[store.counterAtom, initialState]] as Iterable<

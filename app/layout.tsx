@@ -11,6 +11,7 @@ function RootLayout({
     <html lang="en">
       <head>
         <Script
+          id="adsbygoogle"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5337133458846513"
           crossOrigin="anonymous"
