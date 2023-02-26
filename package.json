@@ -76,7 +76,7 @@
         "babel-loader": "9.1.2",
         "c8": "7.13.0",
         "concurrently": "7.6.0",
-        "eslint": "8.34.0",
+        "eslint": "8.35.0",
         "eslint-config-next": "13.2.1",
         "eslint-config-prettier": "8.6.0",
         "eslint-plugin-storybook": "0.6.11",
