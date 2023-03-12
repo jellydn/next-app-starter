@@ -83,7 +83,7 @@
         "husky": "8.0.3",
         "identity-obj-proxy": "3.0.0",
         "jest-fetch-mock": "3.0.3",
-        "jsdom": "21.1.0",
+        "jsdom": "21.1.1",
         "kutty": "0.6.0",
         "msw": "1.1.0",
         "nano-staged": "0.8.0",
