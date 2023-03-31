@@ -75,7 +75,7 @@
         "babel-jest": "29.5.0",
         "babel-loader": "9.1.2",
         "c8": "7.13.0",
-        "concurrently": "7.6.0",
+        "concurrently": "8.0.1",
         "eslint": "8.37.0",
         "eslint-config-next": "13.2.4",
         "eslint-config-prettier": "8.8.0",
