@@ -55,8 +55,8 @@
         "zod": "3.21.4"
     },
     "devDependencies": {
-        "@babel/core": "7.21.3",
-        "@storybook/addon-essentials": "7.0.0-rc.10",
+        "@babel/core": "7.21.4",
+        "@storybook/addon-essentials": "7.0.0-rc.11",
         "@storybook/addon-interactions": "7.0.0-rc.10",
         "@storybook/addon-links": "7.0.0-rc.10",
         "@storybook/nextjs": "7.0.0-alpha.41",
