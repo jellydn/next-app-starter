@@ -8768,12 +8768,12 @@ next-secure-headers@2.2.0:
   resolved "https://registry.yarnpkg.com/next-secure-headers/-/next-secure-headers-2.2.0.tgz#d4eb1b00a424f811c1455d1288990a4aad3026af"
   integrity sha512-C7OfZ9JdSJyYMz2ZBMI/WwNbt0qNjlFWX9afUp8nEUzbz6ez3JbeopdyxSZJZJAzVLIAfyk6n73rFpd4e22jRg==
 
-next-validations@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.3.1.tgz#0125f3994d482cd8dcacdd9df28a247cb9579a57"
-  integrity sha512-oA75bp4LdKqegjcM2H380Q+ETXjr1ayWi+oUu/miWfvh4Eig1/niTybfEjiigRpn1oElvSgnmUuIyPvFVA11+g==
+next-validations@0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.3.2.tgz#5ed93b553b684139bc068d0cb051180f74847de8"
+  integrity sha512-C3l9baov/Z9skxWsMKFAlOYjN+mVqt2M+Wmvzv/nzCz/glsYN95ot/vi1HBD5GAFiOMW0xIlc64ChYhNLDjy1w==
   dependencies:
-    type-fest "3.2.0"
+    type-fest "3.7.2"
 
 next@13.2.4:
   version "13.2.4"
@@ -11065,10 +11065,10 @@ type-detect@^4.0.0, type-detect@^4.0.5:
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
-type-fest@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.2.0.tgz#2c8b49e775d9e314a73ea6fcee0b2e8549d5f886"
-  integrity sha512-Il3wdLRzWvbAEtocgxGQA9YOoRVeVUGOMBtel5LdEpNeEAol6GJTLw8GbX6Z8EIMfvfhoOXs2bwOijtAZdK5og==
+type-fest@3.7.2:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.7.2.tgz#08f83ee3229b63077e95c9035034d32905969457"
+  integrity sha512-f9BHrLjRJ4MYkfOsnC/53PNDzZJcVo14MqLp2+hXE39p5bgwqohxR5hDZztwxlbxmIVuvC2EFAKrAkokq23PLA==
 
 type-fest@^0.16.0:
   version "0.16.0"
