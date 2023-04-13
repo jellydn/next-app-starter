@@ -41,7 +41,7 @@
         "@tanstack/react-query": "4.29.1",
         "@tanstack/react-query-devtools": "4.29.1",
         "class-variance-authority": "0.5.2",
-        "consola": "3.0.1",
+        "consola": "3.0.2",
         "jotai": "2.0.4",
         "loglevel": "1.8.1",
         "next": "13.3.0",
