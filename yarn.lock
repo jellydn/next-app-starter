@@ -7605,10 +7605,10 @@ jose@^4.11.4, jose@^4.14.1:
   resolved "https://registry.yarnpkg.com/jose/-/jose-4.14.4.tgz#59e09204e2670c3164ee24cbfe7115c6f8bff9ca"
   integrity sha512-j8GhLiKmUAh+dsFXlX1aJCbt5KMibuKb+d7j1JaOJG6s2UjX1PQlW+OKB/sD4a/5ZYF4RcmYmLSndOoU3Lt/3g==
 
-jotai@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-2.1.0.tgz#b1a9525345518453802e4a64d99e2800598bab76"
-  integrity sha512-fR82PtHAmEQrc/daMEYGc4EteW96/b6wodtDSCzLvoJA/6y4YG70er4hh2f8CYwYjqwQ0eZUModGfG4DmwkTyQ==
+jotai@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-2.1.1.tgz#7fc4edf16d7e20ff42952fbf2c36e8bd57510c07"
+  integrity sha512-LaaiuSaq+6XkwkrCtCkczyFVZOXe0dfjAFN4DVMsSZSRv/A/4xuLHnlpHMEDqvngjWYBotTIrnQ7OogMkUE6wA==
 
 js-levenshtein@^1.1.6:
   version "1.1.6"
