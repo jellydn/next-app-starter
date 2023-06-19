@@ -42,7 +42,7 @@
         "@tanstack/react-query-devtools": "4.29.14",
         "class-variance-authority": "0.6.0",
         "consola": "3.1.0",
-        "jotai": "2.2.0",
+        "jotai": "2.2.1",
         "loglevel": "1.8.1",
         "next": "13.4.6",
         "next-auth": "4.22.1",
