@@ -47,7 +47,7 @@
         "next": "13.4.7",
         "next-auth": "4.22.1",
         "next-secure-headers": "2.2.0",
-        "next-validations": "0.3.2",
+        "next-validations": "0.3.3",
         "nodemailer": "6.9.3",
         "react": "18.2.0",
         "react-dom": "18.2.0",
