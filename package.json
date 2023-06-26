@@ -40,7 +40,7 @@
         "@tailwindcss/forms": "0.5.3",
         "@tanstack/react-query": "4.29.17",
         "@tanstack/react-query-devtools": "4.29.17",
-        "class-variance-authority": "0.6.0",
+        "class-variance-authority": "0.6.1",
         "consola": "3.1.0",
         "jotai": "2.2.1",
         "loglevel": "1.8.1",
