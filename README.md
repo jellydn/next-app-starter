@@ -17,6 +17,7 @@
 
 -   [NextJS: the React Framework for Production](https://nextjs.org/docs)
 -   [Tailwindcss: rapidly build modern websites without ever leaving your HTML](https://tailwindcss.com/)
+-   [shadcn/ui: Beautifully designed components built with Radix UI and Tailwind CSS.](https://github.com/shadcn/ui)
 -   [Jotai: primitive and flexible state management for React.](https://docs.pmnd.rs/jotai/introduction)
 -   [Prisma: next-generation ORM for Node.js and TypeScrip](https://www.prisma.io/)
 -   [NextAuth.js: Authentication for Next.js](https://next-auth.js.org/v3/getting-started/introduction)

@@ -43,6 +43,17 @@ export default function Index() {
                         </a>
 
                         <a
+                            href="https://github.com/shadcn/ui"
+                            className={styles.card}
+                        >
+                            <h3>shadcn/ui</h3>
+                            <p>
+                                Beautifully designed components built with Radix
+                                UI and Tailwind CSS.
+                            </p>
+                        </a>
+
+                        <a
                             href="https://tailwindcss.com/"
                             className={styles.card}
                         >
