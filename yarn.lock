@@ -4986,10 +4986,10 @@ concurrently@8.2.0:
     tree-kill "^1.2.2"
     yargs "^17.7.2"
 
-consola@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-3.2.1.tgz#e5176be3d131d468340a52a2e7bb1d8d1e7bac4a"
-  integrity sha512-p4cjcr/NHr2pbmXcTBcdNwIWEyQIzavKkZt6d0rDPQXta+oilM9j9Folao2REulksBZhYX39vF+HlIm7QRTeWA==
+consola@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-3.2.2.tgz#be9b295e1e556355a09ac475b4394016144e0c32"
+  integrity sha512-r921u0vbF4lQsoIqYvSSER+yZLPQGijOHrYcWoCNVNBZmn/bRR+xT/DgerTze/nLD9TTGzdDa378TVhx7RDOYg==
 
 console-browserify@^1.2.0:
   version "1.2.0"
@@ -7937,10 +7937,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lucide-react@0.255.0:
-  version "0.255.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.255.0.tgz#8845a5793925372104a2566fb84de6dba07e9cae"
-  integrity sha512-BsnpjPy2Dv3nqzZGgb6e/2WFp327Sa5sre5pFTBlAsSmmvOJ9y6tQ2VhgG7+mwaBS+9nYMR3BNaGLasAdCbhbQ==
+lucide-react@0.256.0:
+  version "0.256.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.256.0.tgz#49df17140b7821a9b13d41c0d8d361ab1666a5d4"
+  integrity sha512-uqw4MijZS29zePSBtkEIdOAp2Mn2mE6lVgFxaUd/MpclVUOuwacpRF67s1y3ErEIcR9aSBO0F1e6G56Ci8VUKA==
 
 lz-string@^1.5.0:
   version "1.5.0"
@@ -9365,10 +9365,10 @@ react-element-to-jsx-string@^15.0.0:
     is-plain-object "5.0.0"
     react-is "18.1.0"
 
-react-hook-form@7.45.0:
-  version "7.45.0"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.45.0.tgz#df2bbc8cee598855a63ba446e0bb06f7c8120ccf"
-  integrity sha512-AbHeZ4ad+0dEIknSW9dBgIwcvRDfZ1O97sgj75WaMdOX0eg8TBiUf9wxzVkIjZbk76BBIE9lmFOzyD4PN80ZQg==
+react-hook-form@7.45.1:
+  version "7.45.1"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.45.1.tgz#e352c7f4dbc7540f0756abbb4dcfd1122fecc9bb"
+  integrity sha512-6dWoFJwycbuFfw/iKMcl+RdAOAOHDiF11KWYhNDRN/OkUt+Di5qsZHwA0OwsVnu9y135gkHpTw9DJA+WzCeR9w==
 
 react-inspector@^6.0.0:
   version "6.0.2"
