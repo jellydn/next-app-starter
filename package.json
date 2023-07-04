@@ -67,7 +67,7 @@
         "@vitejs/plugin-react": "4.0.1",
         "@vitest/ui": "0.32.4",
         "autoprefixer": "10.4.14",
-        "babel-jest": "29.5.0",
+        "babel-jest": "29.6.0",
         "babel-loader": "9.1.2",
         "c8": "8.0.0",
         "concurrently": "8.2.0",
