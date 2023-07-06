@@ -33,7 +33,7 @@
         "@tanstack/react-query-devtools": "4.29.19",
         "class-variance-authority": "0.6.1",
         "clsx": "1.2.1",
-        "consola": "3.2.2",
+        "consola": "3.2.3",
         "jotai": "2.2.2",
         "loglevel": "1.8.1",
         "lucide-react": "0.258.0",
