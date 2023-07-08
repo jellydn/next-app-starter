@@ -2,9 +2,10 @@
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vitest/config';
 
+// @ts-ignore
 // https://vitejs.dev/config/
 export default defineConfig({
-    // @ts-ignore build error on vercel
+    // @ts-ignore
     plugins: [react()],
     test: {
         globals: true,
