@@ -32,7 +32,7 @@
         "@tanstack/react-query": "4.29.23",
         "@tanstack/react-query-devtools": "4.29.23",
         "class-variance-authority": "0.6.1",
-        "clsx": "1.2.1",
+        "clsx": "2.0.0",
         "consola": "3.2.3",
         "jotai": "2.2.2",
         "loglevel": "1.8.1",
