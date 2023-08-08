@@ -1,6 +1,6 @@
 import Index from './index';
 
-export default function SSR() {
+export default function ServerSideRendering() {
     return <Index />;
 }
 

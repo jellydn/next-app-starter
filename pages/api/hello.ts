@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { type NextApiRequest, type NextApiResponse } from 'next';
 import { withValidation } from 'next-validations';
 import { z } from 'zod';
 

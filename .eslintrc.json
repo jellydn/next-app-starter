@@ -1,7 +1,7 @@
 {
     "extends": [
-        "next/core-web-vitals",
-        "prettier",
+        "productsway/react",
+        "plugin:@next/next/recommended",
         "plugin:storybook/recommended"
     ]
 }
