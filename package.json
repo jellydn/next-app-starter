@@ -62,7 +62,7 @@
         "@testing-library/jest-dom": "5.17.0",
         "@testing-library/react": "14.0.0",
         "@trivago/prettier-plugin-sort-imports": "4.2.0",
-        "@types/react": "18.2.19",
+        "@types/react": "18.2.20",
         "@typescript-eslint/eslint-plugin": "6.3.0",
         "@typescript-eslint/parser": "6.3.0",
         "@vitejs/plugin-react": "4.0.4",
