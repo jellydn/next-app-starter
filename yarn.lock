@@ -8038,10 +8038,10 @@ lru-cache@^6.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.0.tgz#b9e2a6a72a129d81ab317202d93c7691df727e61"
   integrity sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==
 
-lucide-react@0.266.0:
-  version "0.266.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.266.0.tgz#35b39fac9fb364ddbd5c9f0f3c9114ddc7b7cb1e"
-  integrity sha512-aPhHBBCgdNVLzMZu/LnGmjO+aTd+xNXlFs4RdtzvCFd/1a9kcFpw3+CjKUvPtxDaJbdcFoS5CxsPhNMIpBgaQA==
+lucide-react@0.267.0:
+  version "0.267.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.267.0.tgz#2aaf2f8a81be32507180d2bccab26bdcf332c36f"
+  integrity sha512-MoYEvKi22TvZG0XmbOrCOsxyYP6g+npqPWjFUGulPfYUNsswhwxMKDiwS4HoA882XF4aY1egCNLZNaBaeNZWqA==
 
 lz-string@^1.5.0:
   version "1.5.0"
@@ -9895,10 +9895,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rustywind@0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.18.0.tgz#2e7c472e9ba2e3273efebb7e04c6230bb14953a0"
-  integrity sha512-wQagWWqwzVFqupVbt6XfM5hEVws+v+Rqd5/I3N/ioEqICJ+07k76LU67563IMy3Ky44KkAzhG+ev7uNZRJ33nQ==
+rustywind@0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.19.0.tgz#9ed36cd11777ed042e72c05a46706c8c43707243"
+  integrity sha512-v+rrU4Q1LK5fshUdXwXQ8h0wOUY+hbeot2aPJiGrv0lCBk9x6kSCctE7z8N9v5UPxfm3o0sqKqDwX2Zd5YV5fw==
   dependencies:
     https-proxy-agent "^4.0.0"
     proxy-from-env "^1.1.0"
