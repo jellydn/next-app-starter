@@ -8038,10 +8038,10 @@ lru-cache@^6.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.0.tgz#b9e2a6a72a129d81ab317202d93c7691df727e61"
   integrity sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==
 
-lucide-react@0.267.0:
-  version "0.267.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.267.0.tgz#2aaf2f8a81be32507180d2bccab26bdcf332c36f"
-  integrity sha512-MoYEvKi22TvZG0XmbOrCOsxyYP6g+npqPWjFUGulPfYUNsswhwxMKDiwS4HoA882XF4aY1egCNLZNaBaeNZWqA==
+lucide-react@0.268.0:
+  version "0.268.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.268.0.tgz#24ed431839f9b30eaac0dab4cbd37626aeaae1e8"
+  integrity sha512-XP/xY3ASJAViqNqVnDRcEfdxfRB7uNST8sqTLwZhL983ikmHMQ7qQak7ZxrnXOVhB3QDBawdr3ANq0P+iWHP/g==
 
 lz-string@^1.5.0:
   version "1.5.0"
