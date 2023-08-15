@@ -38,7 +38,7 @@
         "jotai": "2.3.1",
         "loglevel": "1.8.1",
         "lucide-react": "0.268.0",
-        "next": "13.4.13",
+        "next": "13.4.16",
         "next-auth": "4.23.0",
         "next-secure-headers": "2.2.0",
         "next-validations": "0.3.3",
@@ -48,7 +48,7 @@
         "react-hook-form": "7.45.4",
         "tailwind-merge": "1.14.0",
         "tailwindcss-animate": "1.0.6",
-        "zod": "3.21.4"
+        "zod": "3.22.0"
     },
     "devDependencies": {
         "@babel/core": "7.22.10",
@@ -63,8 +63,8 @@
         "@testing-library/react": "14.0.0",
         "@trivago/prettier-plugin-sort-imports": "4.2.0",
         "@types/react": "18.2.20",
-        "@typescript-eslint/eslint-plugin": "6.3.0",
-        "@typescript-eslint/parser": "6.3.0",
+        "@typescript-eslint/eslint-plugin": "6.4.0",
+        "@typescript-eslint/parser": "6.4.0",
         "@vitejs/plugin-react": "4.0.4",
         "@vitest/ui": "0.34.1",
         "autoprefixer": "10.4.15",
@@ -73,7 +73,7 @@
         "c8": "8.0.1",
         "concurrently": "8.2.0",
         "eslint": "8.47.0",
-        "eslint-config-next": "13.4.13",
+        "eslint-config-next": "13.4.16",
         "eslint-config-productsway": "1.2.0",
         "eslint-plugin-storybook": "0.6.13",
         "husky": "8.0.3",
