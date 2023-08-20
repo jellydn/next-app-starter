@@ -3,7 +3,7 @@
     "version": "0.2.0",
     "private": true,
     "scripts": {
-        "build": "next build",
+        "build": "prisma generate && next build",
         "build-storybook": "storybook build",
         "coverage": "vitest run --coverage",
         "dev": "next dev",
