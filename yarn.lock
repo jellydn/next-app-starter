@@ -3153,10 +3153,10 @@
     lz-string "^1.5.0"
     pretty-format "^27.0.2"
 
-"@testing-library/jest-dom@6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-6.1.0.tgz#8e5017514d374b8e7abe294441130063e2b74a49"
-  integrity sha512-EUAg9pvOkzmGXUSyAPt0h6yAXHxsn+FMNS1o7OX8TErmldZML2ywt10lotZXx/a1PDiSnq0fGGyEV/ybKSLPWQ==
+"@testing-library/jest-dom@6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-6.1.1.tgz#1a159b93f03f55ffc00adae86c6d412af39588b1"
+  integrity sha512-PEDx4fwesRjrUqhnqMz2+DxJtA0Qfy8IChXfx2P+f1mOI4ssc2b+fnzcmaevWPtfqFDE1q3veB9iJRFDw+xUVg==
   dependencies:
     "@adobe/css-tools" "^4.0.1"
     "@babel/runtime" "^7.9.2"
@@ -7821,10 +7821,10 @@ jose@^4.11.4, jose@^4.14.4:
   resolved "https://registry.yarnpkg.com/jose/-/jose-4.14.4.tgz#59e09204e2670c3164ee24cbfe7115c6f8bff9ca"
   integrity sha512-j8GhLiKmUAh+dsFXlX1aJCbt5KMibuKb+d7j1JaOJG6s2UjX1PQlW+OKB/sD4a/5ZYF4RcmYmLSndOoU3Lt/3g==
 
-jotai@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-2.3.1.tgz#0bd43f4c89cf557cfea5414bf3c8b6792202c354"
-  integrity sha512-pXhx8/MeRUAHbzayerEUf9NHvP+Ba3q9WAvIMjaSwwuSCKEFhb8UW4XuZPC+Bv4u2ufvlyrxIZ+vy5UJ3f8JsQ==
+jotai@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-2.4.0.tgz#3f0b30fa54dfb4b4bb22141264512bccca5f5149"
+  integrity sha512-NUHJdAJe3C8Prf0DD6EzezCATjkNvfCNI7pgkaX7bCPPsqE0oK8L9RzZsEhz/UxFoGRayXwacTvAli0VEYKkqQ==
 
 js-levenshtein@^1.1.6:
   version "1.1.6"
