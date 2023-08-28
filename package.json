@@ -80,7 +80,7 @@
         "identity-obj-proxy": "3.0.0",
         "jest-fetch-mock": "3.0.3",
         "jsdom": "22.1.0",
-        "msw": "1.2.4",
+        "msw": "1.2.5",
         "nano-staged": "0.8.0",
         "postcss": "8.4.28",
         "prettier": "3.0.2",
