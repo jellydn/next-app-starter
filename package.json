@@ -82,7 +82,7 @@
         "jsdom": "22.1.0",
         "msw": "1.2.5",
         "nano-staged": "0.8.0",
-        "postcss": "8.4.28",
+        "postcss": "8.4.29",
         "prettier": "3.0.3",
         "prisma": "5.2.0",
         "rustywind": "0.19.0",
