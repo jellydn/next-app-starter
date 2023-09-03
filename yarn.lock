@@ -3485,7 +3485,7 @@
     "@types/mime" "*"
     "@types/node" "*"
 
-"@types/set-cookie-parser@^2.4.0":
+"@types/set-cookie-parser@^2.4.0", "@types/set-cookie-parser@^2.4.3":
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/@types/set-cookie-parser/-/set-cookie-parser-2.4.3.tgz#963a7437ed026c6adec2a71478ed6e3df2837160"
   integrity sha512-7QhnH7bi+6KAhBB+Auejz1uV9DHiopZqu7LfR/5gZZTkejJV5nYeZZpgfFoE0N8aDsXuiYpfKyfyMatCwQhyTQ==
@@ -6979,10 +6979,18 @@ he@^1.2.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-headers-polyfill@^3.1.0, headers-polyfill@^3.1.2:
+headers-polyfill@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/headers-polyfill/-/headers-polyfill-3.2.0.tgz#908e5c79c61754a7140aa66be2c2c5b577eac8ba"
   integrity sha512-NsYkbrWFQyoPBrbX5riycJ3D4aaB/3fpx1nYgDi3JTTnoeFET3BN0rq2nOB3VUmvpQrYpbKL8zRJo1Jsmmt7nA==
+
+headers-polyfill@^3.2.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/headers-polyfill/-/headers-polyfill-3.2.1.tgz#f760811ed6c042803436f42157a0f6d59f805d59"
+  integrity sha512-jpY9fNMWPWwkqRN9CpSRNqL9svpiuSmg4CsbPl4s43KltIDIVHlPv75UOXVgc/PTP6BzHSUvd9UMdxSW1I+ETQ==
+  dependencies:
+    "@types/set-cookie-parser" "^2.4.3"
+    set-cookie-parser "^2.6.0"
 
 hmac-drbg@^1.0.1:
   version "1.0.1"
@@ -8317,10 +8325,10 @@ ms@2.1.3, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-msw@1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-1.2.5.tgz#797a23e5cef7b6cad22a4a6948a9c91a3ffa1ede"
-  integrity sha512-Y3MwnAHX3d162eSWrEUeRdCv3+8hmgz/+Wh7OUkE6VB55+YTswxrep3yU3evZnKWHJGAM63G1s+olAgzIFdYtQ==
+msw@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-1.3.0.tgz#dc1f80a79f4719610e45a87e77d1ec32720bbb6d"
+  integrity sha512-nnWAZlQyQOKeYRblCpseT1kSPt1aF5e/jHz1hn/18IxbsMFreSVV1cJriT0uV+YG6+wvwFRMHXU3zVuMvuwERQ==
   dependencies:
     "@mswjs/cookies" "^0.2.2"
     "@mswjs/interceptors" "^0.17.5"
@@ -8331,7 +8339,7 @@ msw@1.2.5:
     chokidar "^3.4.2"
     cookie "^0.4.2"
     graphql "^15.0.0 || ^16.0.0"
-    headers-polyfill "^3.1.2"
+    headers-polyfill "^3.2.0"
     inquirer "^8.2.0"
     is-node-process "^1.2.0"
     js-levenshtein "^1.1.6"
@@ -9447,10 +9455,10 @@ react-element-to-jsx-string@^15.0.0:
     is-plain-object "5.0.0"
     react-is "18.1.0"
 
-react-hook-form@7.45.4:
-  version "7.45.4"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.45.4.tgz#73d228b704026ae95d7e5f7b207a681b173ec62a"
-  integrity sha512-HGDV1JOOBPZj10LB3+OZgfDBTn+IeEsNOKiq/cxbQAIbKaiJUe/KV8DBUzsx0Gx/7IG/orWqRRm736JwOfUSWQ==
+react-hook-form@7.46.0:
+  version "7.46.0"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.46.0.tgz#dba3491e4bc0968346e5615d9d669af780b47cd4"
+  integrity sha512-sc22pXwuKgbWBR5/EYWOVoFw4i/w893tDRUgQY2/Xb7wlpajJBrqAMFhb4z1CDhZ0TSFFfX62+iKx3gCXnCHHw==
 
 react-inspector@^6.0.0:
   version "6.0.2"
@@ -10029,7 +10037,7 @@ serve-static@1.15.0:
     parseurl "~1.3.3"
     send "0.18.0"
 
-set-cookie-parser@^2.4.6:
+set-cookie-parser@^2.4.6, set-cookie-parser@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/set-cookie-parser/-/set-cookie-parser-2.6.0.tgz#131921e50f62ff1a66a461d7d62d7b21d5d15a51"
   integrity sha512-RVnVQxTXuerk653XfuliOxBP81Sf0+qfQE73LIYKcyMYHG94AuH0kgrQpRDuTZnSmjpysHmzxJXKNfa6PjFhyQ==
