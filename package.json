@@ -51,8 +51,8 @@
         "zod": "3.22.2"
     },
     "devDependencies": {
-        "@babel/core": "7.22.11",
-        "@babel/eslint-parser": "7.22.11",
+        "@babel/core": "7.22.15",
+        "@babel/eslint-parser": "7.22.15",
         "@storybook/addon-essentials": "7.4.0",
         "@storybook/addon-interactions": "7.4.0",
         "@storybook/addon-links": "7.4.0",
