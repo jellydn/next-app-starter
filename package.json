@@ -35,7 +35,7 @@
         "class-variance-authority": "0.7.0",
         "clsx": "2.0.0",
         "consola": "3.2.3",
-        "jotai": "2.4.1",
+        "jotai": "2.4.2",
         "loglevel": "1.8.1",
         "lucide-react": "0.274.0",
         "next": "13.4.19",
