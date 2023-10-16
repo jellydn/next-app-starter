@@ -85,7 +85,7 @@
         "postcss": "8.4.31",
         "prettier": "3.0.3",
         "prisma": "5.4.2",
-        "rustywind": "0.19.0",
+        "rustywind": "0.20.0",
         "sort-package-json": "2.6.0",
         "storybook": "7.4.6",
         "tailwindcss": "3.3.3",
