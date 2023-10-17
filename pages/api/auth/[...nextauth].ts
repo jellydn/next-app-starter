@@ -1,5 +1,5 @@
 /* eslint-disable new-cap */
-import { PrismaAdapter } from '@next-auth/prisma-adapter';
+import { PrismaAdapter } from '@next-auth/prisma-adapter';1
 import * as Prisma from '@prisma/client';
 import NextAuth from 'next-auth';
 import EmailProvider from 'next-auth/providers/email';
