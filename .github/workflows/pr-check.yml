@@ -1,0 +1,44 @@
+name: Linter & Typecheck
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
+    workflow_dispatch:
+jobs:
+    typecheck:
+        runs-on: ubuntu-latest
+        continue-on-error: true
+        steps:
+            - name: 🛑 Cancel Previous Runs
+              uses: styfle/cancel-workflow-action@0.12.0
+            - id: checkout
+              name: Checkout
+              uses: actions/checkout@v4
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            - uses: bahmutov/npm-install@v1
+            - id: Typecheck
+              name: Checking Typescript Error
+              run: |
+                  yarn typecheck
+    linter:
+        runs-on: ubuntu-latest
+        continue-on-error: true
+        steps:
+            - name: 🛑 Cancel Previous Runs
+              uses: styfle/cancel-workflow-action@0.12.0
+            - id: checkout
+              name: Checkout
+              uses: actions/checkout@v4
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            - uses: bahmutov/npm-install@v1
+            - id: linter
+              name: Linter check
+              run: |
+                  yarn lint

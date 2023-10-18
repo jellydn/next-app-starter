@@ -13,7 +13,8 @@
         "start": "next start",
         "storybook": "storybook dev -p 6006",
         "test": "vitest",
-        "test:ui": "vitest --ui"
+        "test:ui": "vitest --ui",
+        "typecheck": "tsc --noEmit"
     },
     "babel": {
         "presets": [
