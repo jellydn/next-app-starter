@@ -2,9 +2,6 @@ const { createSecureHeaders } = require("next-secure-headers");
 
 /** @type {import('next').NextConfig} */
 module.exports = {
-  experimental: {
-    appDir: true,
-  },
   async headers() {
     return [{ source: "/(.*)", headers: createSecureHeaders() }];
   },
