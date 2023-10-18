@@ -72,24 +72,6 @@ yarn test
 yarn storybook
 ```
 
-## 🙌 Contributors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://mike-hoang-dev.vercel.app/"><img src="https://avatars.githubusercontent.com/u/25890552?v=4?s=100" width="100px;" alt="Mike Hoang"/><br /><sub><b>Mike Hoang</b></sub></a><br /><a href="https://github.com/jellydn/next-app-starter/commits?author=mikah13" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 ## 📄 License
 
 This project is licensed under the **MIT License** - see the [**MIT License**](https://github.com/jellydn/next-app-starter/blob/main/LICENSE) file for details.
