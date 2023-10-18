@@ -13,6 +13,16 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/870029?v=4",
       "profile": "https://productsway.com/",
       "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "mikah13",
+      "name": "Mike Hoang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25890552?v=4",
+      "profile": "https://mike-hoang-dev.vercel.app/",
+      "contributions": [
         "code"
       ]
     }
