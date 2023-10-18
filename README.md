@@ -13,7 +13,7 @@
 
 ![screenshot](./screenshot.png)
 
-## Built with
+## 💻 Stack
 
 -   [NextJS: the React Framework for Production](https://nextjs.org/docs)
 -   [Tailwindcss: rapidly build modern websites without ever leaving your HTML](https://tailwindcss.com/)
@@ -29,6 +29,19 @@
 -   [react-testing: simple and complete testing utilities that encourage good testing practices](https://testing-library.com/)
 -   [React-query: performant and powerful data synchronization for React](https://react-query.tanstack.com/)
 -   And other standard tools as [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [nano-staged](https://github.com/usmanyunusov/nano-staged)
+
+## 📝 Project Summary
+
+- [**app**](app): Main application logic and entry point.
+- [**components**](components): Reusable UI components.
+- [**pages**](pages): Individual pages/views of the application.
+- [**prisma**](prisma): Database ORM and migration scripts.
+- [**public**](public): Static assets accessible to the public.
+- [**store**](store): State management for the application.
+- [**tests**](tests): Unit and integration tests.
+- [**types**](types): Custom TypeScript types and interfaces.
+- [**storybook**](storybook): Component library and documentation.
+- [**.github/workflows**](.github/workflows): CI/CD workflows for GitHub Actions.
 
 ## Install
 
@@ -56,6 +69,21 @@ yarn test
 yarn storybook
 ```
 
+## 🙌 Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [**MIT License**](https://github.com/jellydn/next-app-starter/blob/main/LICENSE) file for details.
+
 ## Author
 
 -   Website: https://productsway.com/
@@ -73,7 +101,3 @@ yarn storybook
 [![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
 
 Give a ⭐️ if this project helped you!
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
