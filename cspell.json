@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "globRoot": ".",
+  "dictionaryDefinitions": [
+    {
+      "name": "next-app-starter",
+      "path": "./next-app-starter.txt",
+      "addWords": true
+    }
+  ],
+  "dictionaries": [
+    "next-app-starter"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    "build",
+    "/next-app-starter.txt"
+  ]
+}
