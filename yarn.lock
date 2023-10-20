@@ -3041,17 +3041,17 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.0.0.tgz#b37a50bb3a4f54336b6131db00b72cd29e79b480"
   integrity sha512-Y1BpiA6BblJd/UlVqxEVeAG7IACn568YJuTTItAiecBI7En+33g780kg+/8lhgl+BzcUPN7o+NjBrSRGJoemyQ==
 
-"@tanstack/query-devtools@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.0.0.tgz#bed467c2a8055ceaaf5e582d30ef46df039d94c8"
-  integrity sha512-WATg9+nreAmtTRHzxvCFN6j4ucUVbkJNd8ErcYmf7Y6GsJw/BGscd4rWS7cdAP7zfTcPjHjGaRB041pcv8dNvA==
+"@tanstack/query-devtools@5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.0.3.tgz#d9244af1be5f8f69e842c955b03c58f283d87023"
+  integrity sha512-SSMdlbkqBsQXL4fE62LNgJGUj5x88DS2k/lBbrA7xn8l1j050hqiAzSO+SzG75T+oKGwwINapTJ8IjWAIdPqmw==
 
-"@tanstack/react-query-devtools@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.0.1.tgz#c2a5d95ccb41459ed52c63a320a800d013ebcb15"
-  integrity sha512-AM1Cx29jnryisTDLetjQB5eg46ax8th1/qADqfV/leWmKEQGCVohkT+JmpXEGQJ4X6MzJYiyoC6YQBdS82jR+w==
+"@tanstack/react-query-devtools@5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.0.3.tgz#01f76bfd8e4cef4571bfdc275c27ad66f09e2d10"
+  integrity sha512-Q/SmDwV596+BFG+qZWABXG1jOjCtZrnZW+4AXm9xQMCsyM6EiPg97+xD05o5KYcKdvqlAu8o3fi7HKjefTi76Q==
   dependencies:
-    "@tanstack/query-devtools" "5.0.0"
+    "@tanstack/query-devtools" "5.0.3"
 
 "@tanstack/react-query@5.0.0":
   version "5.0.0"
@@ -3426,10 +3426,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@18.2.30":
-  version "18.2.30"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.30.tgz#b84f786864fc46f18545364a54d5e1316308e59b"
-  integrity sha512-OfqdJnDsSo4UNw0bqAjFCuBpLYQM7wvZidz0hVxHRjrEkzRlvZL1pJVyOSY55HMiKvRNEo9DUBRuEl7FNlJ/Vg==
+"@types/react@18.2.31":
+  version "18.2.31"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.31.tgz#74ae2630e4aa9af599584157abd3b95d96fb9b40"
+  integrity sha512-c2UnPv548q+5DFh03y8lEDeMfDwBn9G3dRwfkrxQMo/dOtRHUUO57k6pHvBIfH/VF4Nh+98mZ5aaSe+2echD5g==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
