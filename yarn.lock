@@ -1809,22 +1809,22 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.23.tgz#498e41218ab3b6a1419c735e5c6ae2c5ed609b6c"
   integrity sha512-C16M+IYz0rgRhWZdCmK+h58JMv8vijAA61gmz2rspCSwKwzBebpdcsiUmwrtJRdphuY30i6BSLEOP8ppbNLyLg==
 
-"@prisma/client@5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-5.5.0.tgz#d3f787a66e34d97c33325a3f1b14af918f07e723"
-  integrity sha512-JiCj/h79PRawWiBVa4Ng4tBaKMrfJgUwuRrZi4NuQRd58gWIP4kEYMqIidpUrab3dU2NM617pWRG2avX+dh+Sg==
+"@prisma/client@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-5.5.2.tgz#ce6389e7ad9e9cf0fc2a7c6a0032ad2e12a9fd61"
+  integrity sha512-54XkqR8M+fxbzYqe+bIXimYnkkcGqgOh0dn0yWtIk6CQT4IUCAvNFNcQZwk2KqaLU+/1PHTSWrcHtx4XjluR5w==
   dependencies:
-    "@prisma/engines-version" "5.5.0-19.475c616176945d72f4330c92801f0c5e6398dc0f"
+    "@prisma/engines-version" "5.5.1-1.aebc046ce8b88ebbcb45efe31cbe7d06fd6abc0a"
 
-"@prisma/engines-version@5.5.0-19.475c616176945d72f4330c92801f0c5e6398dc0f":
-  version "5.5.0-19.475c616176945d72f4330c92801f0c5e6398dc0f"
-  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-5.5.0-19.475c616176945d72f4330c92801f0c5e6398dc0f.tgz#c3ddca62ee65158a20ce194c2492791f506f4bfc"
-  integrity sha512-/1orOUq7I54ISYBJockYB15FmF/VkCBeFzYYkWyLtBl2tLlJWHmA3NEUBM+wSmXGLK78BmuSNHrLbf8bmXkukQ==
+"@prisma/engines-version@5.5.1-1.aebc046ce8b88ebbcb45efe31cbe7d06fd6abc0a":
+  version "5.5.1-1.aebc046ce8b88ebbcb45efe31cbe7d06fd6abc0a"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-5.5.1-1.aebc046ce8b88ebbcb45efe31cbe7d06fd6abc0a.tgz#35cd59ed65ee1f9e333f4865ec86a4432c4d0a9c"
+  integrity sha512-O+qHFnZvAyOFk1tUco2/VdiqS0ym42a3+6CYLScllmnpbyiTplgyLt2rK/B9BTjYkSHjrgMhkG47S0oqzdIckA==
 
-"@prisma/engines@5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-5.5.0.tgz#80b9035d533e3dcd4297ddeada4806fe176ae7bf"
-  integrity sha512-WX+8l4sJuWeS3A/5WqJpdBHp32UzUticiKwUWbFggcd6/sqGtCiiaFmXYmNw6Au2O6hjSX37Y07Vu2ZhP9cmWg==
+"@prisma/engines@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-5.5.2.tgz#fe0d2361a48c7d59568ccf0d35c75432594e1ac1"
+  integrity sha512-Be5hoNF8k+lkB3uEMiCHbhbfF6aj1GnrTBnn5iYFT7GEr3TsOEp1soviEcBR0tYCgHbxjcIxJMhdbvxALJhAqg==
 
 "@radix-ui/number@1.0.1":
   version "1.0.1"
@@ -3401,10 +3401,19 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.2.31", "@types/react@>=16":
+"@types/react@*", "@types/react@>=16":
   version "18.2.31"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.31.tgz#74ae2630e4aa9af599584157abd3b95d96fb9b40"
   integrity sha512-c2UnPv548q+5DFh03y8lEDeMfDwBn9G3dRwfkrxQMo/dOtRHUUO57k6pHvBIfH/VF4Nh+98mZ5aaSe+2echD5g==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@18.2.32":
+  version "18.2.32"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.32.tgz#7ec787730c45ee9a3c0ed150b19e95c31fe4608a"
+  integrity sha512-F0FVIZQ1x5Gxy/VYJb7XcWvCcHR28Sjwt1dXLspdIatfPq1MVACfnBDwKe6ANLxQ64riIJooXClpUR6oxTiepg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -7998,10 +8007,10 @@ lru-cache@^6.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.1.tgz#0a3be479df549cca0e5d693ac402ff19537a6b7a"
   integrity sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==
 
-lucide-react@0.288.0:
-  version "0.288.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.288.0.tgz#cc9fda209fe4ec6e572efca38f7d3e3cde7422eb"
-  integrity sha512-ikhb/9LOkq9orPoLV9lLC4UYyoXQycBhIgH7H59ahOkk0mkcAqkD52m84RXedE/qVqZHW8rEJquInT4xGmsNqw==
+lucide-react@0.289.0:
+  version "0.289.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.289.0.tgz#4ab2a0d0ad2bcf9b56fdbc455a98e026510a7f28"
+  integrity sha512-D3/kt5h4KVmO9Bqlhky/szWI3puEU/KJfQWCeX8Zhvx3xx0SQ4t6vbwiK9ORBbiaqXefkBbXjoq7fOBd7s5yXQ==
 
 lz-string@^1.5.0:
   version "1.5.0"
@@ -9152,12 +9161,12 @@ pretty-hrtime@^1.0.3:
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
   integrity sha512-66hKPCr+72mlfiSjlEB1+45IjXSqvVAIy6mocupoww4tBFE9R9IhwwUGoI4G++Tc9Aq+2rxOt0RFU6gPcrte0A==
 
-prisma@5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-5.5.0.tgz#088c3733ddc578cabdbddb89adc53ddc423ac27f"
-  integrity sha512-QyMMh1WQiGU07Iz3Q8jd6y5KlomGLDVb4etkMWpQ4EmDAaY+zGgNHmBk2MfRPb0A+un1Ior1nZWZorfnKD6E5A==
+prisma@5.5.2:
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-5.5.2.tgz#54ad2f04f0dd4174f27128e4447013e8d75c4d69"
+  integrity sha512-WQtG6fevOL053yoPl6dbHV+IWgKo25IRN4/pwAGqcWmg7CrtoCzvbDbN9fXUc7QS2KK0LimHIqLsaCOX/vHl8w==
   dependencies:
-    "@prisma/engines" "5.5.0"
+    "@prisma/engines" "5.5.2"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
@@ -10439,10 +10448,10 @@ tailwindcss-animate@1.0.7:
   resolved "https://registry.yarnpkg.com/tailwindcss-animate/-/tailwindcss-animate-1.0.7.tgz#318b692c4c42676cc9e67b19b78775742388bef4"
   integrity sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==
 
-tailwindcss@3.3.4:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.4.tgz#f08c493ff3ddf03081c40e780e98f129e1c8214d"
-  integrity sha512-JXZNOkggUAc9T5E7nCrimoXHcSf9h3NWFe5sh36CGD/3M5TRLuQeFnQoDsit2uVTqgoOZHLx5rTykLUu16vsMQ==
+tailwindcss@3.3.5:
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.5.tgz#22a59e2fbe0ecb6660809d9cc5f3976b077be3b8"
+  integrity sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==
   dependencies:
     "@alloc/quick-lru" "^5.2.0"
     arg "^5.0.2"
