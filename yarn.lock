@@ -3410,10 +3410,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@18.2.32":
-  version "18.2.32"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.32.tgz#7ec787730c45ee9a3c0ed150b19e95c31fe4608a"
-  integrity sha512-F0FVIZQ1x5Gxy/VYJb7XcWvCcHR28Sjwt1dXLspdIatfPq1MVACfnBDwKe6ANLxQ64riIJooXClpUR6oxTiepg==
+"@types/react@18.2.33":
+  version "18.2.33"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.33.tgz#055356243dc4350a9ee6c6a2c07c5cae12e38877"
+  integrity sha512-v+I7S+hu3PIBoVkKGpSYYpiBT1ijqEzWpzQD62/jm4K74hPpSP7FF9BnKG6+fg2+62weJYkkBWDJlZt5JO/9hg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -8007,10 +8007,10 @@ lru-cache@^6.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.1.tgz#0a3be479df549cca0e5d693ac402ff19537a6b7a"
   integrity sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==
 
-lucide-react@0.289.0:
-  version "0.289.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.289.0.tgz#4ab2a0d0ad2bcf9b56fdbc455a98e026510a7f28"
-  integrity sha512-D3/kt5h4KVmO9Bqlhky/szWI3puEU/KJfQWCeX8Zhvx3xx0SQ4t6vbwiK9ORBbiaqXefkBbXjoq7fOBd7s5yXQ==
+lucide-react@0.290.0:
+  version "0.290.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.290.0.tgz#fb68c8b4db179b6c4befe913a8d96d6d79d664c9"
+  integrity sha512-CBDPRLOPjdo+bVlxhaa7FVWaB8OrZZQ34mwm0Fsz9ut6JltN/Td55640ur8bRWSJuz6+nX2klKrpBpV7ktwD3Q==
 
 lz-string@^1.5.0:
   version "1.5.0"
