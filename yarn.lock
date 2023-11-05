@@ -3030,17 +3030,17 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.4.2.tgz#1687645ba1b9ffc76c55ac7759461d331d0776bf"
   integrity sha512-EXdaMXi8CxZuMp97J5mq6wy1RduOfoWFv5vtA1U+hyqb8Wst6M8kkkjDSdFvGZIRpYY4K8mKLlEFHNUZDG5dtw==
 
-"@tanstack/react-query-devtools@5.4.3":
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.4.3.tgz#7df56de0454104c229f25393cf57a957f6245186"
-  integrity sha512-J9EB50vpK5yvQ5W+AOp9jIQa+1mld+Wwc2GF3VLr2SEDhOyiTiHOjrFGKKL1Cal5Wg8UuS3vexf8trElrtg05A==
+"@tanstack/react-query-devtools@5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.7.0.tgz#0fec9ea00f6c9f5678bc2f9d3d22881533f0ff7c"
+  integrity sha512-UASSDywXWavqOjaTQ9sF4RG51miqtxo7LUr1/fvrek6o+GlUxF5TS+cIOy/lYdSMFtkuaVTb0LNW3OLEuFwOPw==
   dependencies:
     "@tanstack/query-devtools" "5.4.2"
 
-"@tanstack/react-query@5.4.3":
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.4.3.tgz#cf59120690032e44b8c1c4c463cfb43aaad2fc5f"
-  integrity sha512-4aSOrRNa6yEmf7mws5QPTVMn8Lp7L38tFoTZ0c1ZmhIvbr8GIA0WT7X5N3yz/nuK8hUtjw9cAzBr4BPDZZ+tzA==
+"@tanstack/react-query@5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.7.0.tgz#6f9df3eb101a6a5303bd27134f8f7dad1711a9d6"
+  integrity sha512-f6F9OdW4MC0bwlYPXop114ngkkZtg650TeJpR2/ME9q/iJ/59dg2+LoGHEdHk2w1mNAdiuiPFYzCcl2WNkFiiw==
   dependencies:
     "@tanstack/query-core" "5.4.3"
 
@@ -9425,10 +9425,10 @@ react-element-to-jsx-string@^15.0.0:
     is-plain-object "5.0.0"
     react-is "18.1.0"
 
-react-hook-form@7.47.0:
-  version "7.47.0"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.47.0.tgz#a42f07266bd297ddf1f914f08f4b5f9783262f31"
-  integrity sha512-F/TroLjTICipmHeFlMrLtNLceO2xr1jU3CyiNla5zdwsGUGu2UOxxR4UyJgLlhMwLW/Wzp4cpJ7CPfgJIeKdSg==
+react-hook-form@7.48.1:
+  version "7.48.1"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.48.1.tgz#096860509c65c9a4ae247078e4fb46d83cb8caee"
+  integrity sha512-RPLOfCL+qC1lOTknh9OrgeFbchYUJ4KFgrqZTVHf0nRizcwzQUABrBIQk3SkujiqIXTs5xjP6eApc7FOpvpS1Q==
 
 react-inspector@^6.0.0:
   version "6.0.2"
