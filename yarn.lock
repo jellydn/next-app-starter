@@ -3030,17 +3030,17 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.4.2.tgz#1687645ba1b9ffc76c55ac7759461d331d0776bf"
   integrity sha512-EXdaMXi8CxZuMp97J5mq6wy1RduOfoWFv5vtA1U+hyqb8Wst6M8kkkjDSdFvGZIRpYY4K8mKLlEFHNUZDG5dtw==
 
-"@tanstack/react-query-devtools@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.7.0.tgz#0fec9ea00f6c9f5678bc2f9d3d22881533f0ff7c"
-  integrity sha512-UASSDywXWavqOjaTQ9sF4RG51miqtxo7LUr1/fvrek6o+GlUxF5TS+cIOy/lYdSMFtkuaVTb0LNW3OLEuFwOPw==
+"@tanstack/react-query-devtools@5.7.1":
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.7.1.tgz#0b74cc8a4e76dec3801cd975c14e1638b630f9a7"
+  integrity sha512-my9rj3MpCc5+AbZyX/gLAKIJnPaPhwV/IFgvUT5W7uTMCE8x5DdswQnLNX0PLkcf5t8zrqoLAk9mJny+p/XfgA==
   dependencies:
     "@tanstack/query-devtools" "5.4.2"
 
-"@tanstack/react-query@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.7.0.tgz#6f9df3eb101a6a5303bd27134f8f7dad1711a9d6"
-  integrity sha512-f6F9OdW4MC0bwlYPXop114ngkkZtg650TeJpR2/ME9q/iJ/59dg2+LoGHEdHk2w1mNAdiuiPFYzCcl2WNkFiiw==
+"@tanstack/react-query@5.7.1":
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.7.1.tgz#4d1a6d734f83f843827a7c3fb24b8f49c16f1a8f"
+  integrity sha512-7onwx519jOKh7/nspf70dOSejJSYfhFRnVsSicuPrmO8L6Iw05G1wwDpp1PjqFLsm7suixlHDXhcNfK0sy0kWg==
   dependencies:
     "@tanstack/query-core" "5.4.3"
 
@@ -3412,10 +3412,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@18.2.34":
-  version "18.2.34"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.34.tgz#aed20f19473721ba328feb99d1ec3307ebc1a8dd"
-  integrity sha512-U6eW/alrRk37FU/MS2RYMjx0Va2JGIVXELTODaTIYgvWGCV4Y4TfTUzG8DdmpDNIT0Xpj/R7GfyHOJJrDttcvg==
+"@types/react@18.2.35":
+  version "18.2.35"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.35.tgz#bacdc6d139a4d6d47e5186e1a96952c65e1f3792"
+  integrity sha512-LG3xpFZ++rTndV+/XFyX5vUP7NI9yxyk+MQvBDq+CVs8I9DLSc3Ymwb1Vmw5YDoeNeHN4PDZa3HylMKJYT9PNQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -7685,10 +7685,10 @@ jose@^4.11.4, jose@^4.15.1:
   resolved "https://registry.yarnpkg.com/jose/-/jose-4.15.4.tgz#02a9a763803e3872cf55f29ecef0dfdcc218cc03"
   integrity sha512-W+oqK4H+r5sITxfxpSU+MMdr/YSWGvgZMQDIsNoBDGGy4i7GBPTtvFKibQzW06n3U3TqHjhvBJsirShsEJ6eeQ==
 
-jotai@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-2.5.0.tgz#dcf4fcfe5e9503fa7d0292eb30eaa4225b01dea3"
-  integrity sha512-iPJDFrhNw3KU4o4SSAESeZoW+nM1L/76VULXZWF23qmivBEcbAQjiF5n1W4Hn5dXAol4tmtEYe4HH7d9emEz0Q==
+jotai@2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-2.5.1.tgz#eed05a32a4ac1264c531a77e86478f7ad3197ca3"
+  integrity sha512-vanPCCSuHczUXNbVh/iUunuMfrWRL4FdBtAbTRmrfqezJcKb8ybBTg8iivyYuUHapjcDETyJe1E4inlo26bVHA==
 
 js-levenshtein@^1.1.6:
   version "1.1.6"
@@ -8400,12 +8400,12 @@ next-secure-headers@2.2.0:
   resolved "https://registry.yarnpkg.com/next-secure-headers/-/next-secure-headers-2.2.0.tgz#d4eb1b00a424f811c1455d1288990a4aad3026af"
   integrity sha512-C7OfZ9JdSJyYMz2ZBMI/WwNbt0qNjlFWX9afUp8nEUzbz6ez3JbeopdyxSZJZJAzVLIAfyk6n73rFpd4e22jRg==
 
-next-validations@0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.4.1.tgz#24f5d11ae7f1eea339a2f3b77ce626c3f596998b"
-  integrity sha512-L81mPy7ERdF2O2awAtHbOKKiX30o4jWdY4h3Hbd2egJcgAHbS5w/49Rot05H4J8kPfFL39A6hLL6+qhq7JH03A==
+next-validations@0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.4.2.tgz#3bf2997f4795507e421afd1634ffddcfeba1856b"
+  integrity sha512-6XtLuTFuJh4xyRTBbwkzr8A2ApoDazostHM/FGaTGp4fhdFJa+Areqthj069l5KZ+hBbgOgL0+HcrA9UPD3e5g==
   dependencies:
-    type-fest "4.4.0"
+    type-fest "4.6.0"
 
 next@14.0.1:
   version "14.0.1"
@@ -9425,10 +9425,10 @@ react-element-to-jsx-string@^15.0.0:
     is-plain-object "5.0.0"
     react-is "18.1.0"
 
-react-hook-form@7.48.1:
-  version "7.48.1"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.48.1.tgz#096860509c65c9a4ae247078e4fb46d83cb8caee"
-  integrity sha512-RPLOfCL+qC1lOTknh9OrgeFbchYUJ4KFgrqZTVHf0nRizcwzQUABrBIQk3SkujiqIXTs5xjP6eApc7FOpvpS1Q==
+react-hook-form@7.48.2:
+  version "7.48.2"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.48.2.tgz#01150354d2be61412ff56a030b62a119283b9935"
+  integrity sha512-H0T2InFQb1hX7qKtDIZmvpU1Xfn/bdahWBN1fH19gSe4bBEqTfmlr7H3XWTaVtiK4/tpPaI1F3355GPMZYge+A==
 
 react-inspector@^6.0.0:
   version "6.0.2"
@@ -10808,10 +10808,10 @@ type-detect@^4.0.0, type-detect@^4.0.8:
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
-type-fest@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.4.0.tgz#061cd10ff55664bb7174218cdf78c28c48f71c69"
-  integrity sha512-HT3RRs7sTfY22KuPQJkD/XjbTbxgP2Je5HPt6H6JEGvcjHd5Lqru75EbrP3tb4FYjNJ+DjLp+MNQTFQU0mhXNw==
+type-fest@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.6.0.tgz#9c575f7e20530defef4f9cdc5e2c85d6e4ea0fc9"
+  integrity sha512-rLjWJzQFOq4xw7MgJrCZ6T1jIOvvYElXT12r+y0CC6u67hegDHaxcPqb2fZHOGlqxugGQPNB1EnTezjBetkwkw==
 
 type-fest@^0.16.0:
   version "0.16.0"
