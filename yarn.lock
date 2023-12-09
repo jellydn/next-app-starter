@@ -3877,46 +3877,46 @@
     "@types/babel__core" "^7.20.5"
     react-refresh "^0.14.0"
 
-"@vitest/expect@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@vitest/expect/-/expect-1.0.3.tgz#5fb7c9bdf9babaa5a7d21ecffbbb63b865071689"
-  integrity sha512-J+JzGw/uvlWI3D3g8s0ewQo7C32nieF5VqEJpmIgAr8CAK36GvIQrV90lChEgQy79iwK3zyQx4UhfMeIF4572g==
+"@vitest/expect@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@vitest/expect/-/expect-1.0.4.tgz#2751018b6e527841043e046ff424304453a0a024"
+  integrity sha512-/NRN9N88qjg3dkhmFcCBwhn/Ie4h064pY3iv7WLRsDJW7dXnEgeoa8W9zy7gIPluhz6CkgqiB3HmpIXgmEY5dQ==
   dependencies:
-    "@vitest/spy" "1.0.3"
-    "@vitest/utils" "1.0.3"
+    "@vitest/spy" "1.0.4"
+    "@vitest/utils" "1.0.4"
     chai "^4.3.10"
 
-"@vitest/runner@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@vitest/runner/-/runner-1.0.3.tgz#859610f1937f47413dd7fea7bb984b1eeef398dd"
-  integrity sha512-fCqShW4F8VJ78USVRoc5e1OD5jh1x1quZu4Mgp/lIhZS6PZPtI3wdCfRChWO9ZMJ2Ya7WI3sZTJZD69FR/AosA==
+"@vitest/runner@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@vitest/runner/-/runner-1.0.4.tgz#c4dcb88c07f40b91293ff1331747ee58fad6d5e4"
+  integrity sha512-rhOQ9FZTEkV41JWXozFM8YgOqaG9zA7QXbhg5gy6mFOVqh4PcupirIJ+wN7QjeJt8S8nJRYuZH1OjJjsbxAXTQ==
   dependencies:
-    "@vitest/utils" "1.0.3"
+    "@vitest/utils" "1.0.4"
     p-limit "^5.0.0"
     pathe "^1.1.1"
 
-"@vitest/snapshot@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@vitest/snapshot/-/snapshot-1.0.3.tgz#98524b3494a0a50db3a5b5effe82ce5640dcc01f"
-  integrity sha512-2EQwVEuHusEXr0SKuFiI1JVlysSrUceejtusr6vK254tusAz/g4//QrAiD1b7PMdcUKM8QmdgWvqCMaYDsWyNA==
+"@vitest/snapshot@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@vitest/snapshot/-/snapshot-1.0.4.tgz#7020983b3963b473237fea08d347ea83b266b9bb"
+  integrity sha512-vkfXUrNyNRA/Gzsp2lpyJxh94vU2OHT1amoD6WuvUAA12n32xeVZQ0KjjQIf8F6u7bcq2A2k969fMVxEsxeKYA==
   dependencies:
     magic-string "^0.30.5"
     pathe "^1.1.1"
     pretty-format "^29.7.0"
 
-"@vitest/spy@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@vitest/spy/-/spy-1.0.3.tgz#a5fa98bc31f2e07589892b1c94fe2aa813af5499"
-  integrity sha512-aMd7kvqJuZ/h27Q5XqNOh9fRX7cQJ9fcaPX8q/lk5h2MkAqvq/HuqZ7n1xjm2SDOlDqg3xMaEqP/4inNlNG62A==
+"@vitest/spy@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@vitest/spy/-/spy-1.0.4.tgz#e182c78fb9b1178ff789ad7eb4560ba6750e6e9b"
+  integrity sha512-9ojTFRL1AJVh0hvfzAQpm0QS6xIS+1HFIw94kl/1ucTfGCaj1LV/iuJU4Y6cdR03EzPDygxTHwE1JOm+5RCcvA==
   dependencies:
     tinyspy "^2.2.0"
 
-"@vitest/ui@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-1.0.3.tgz#d35d9cd2687682b7582f63d5b1642f2ca3a9adde"
-  integrity sha512-0K4i75iD1z9MOob3g0S+DBOSyOsrZtn5czvhROYNNzfYTx1FhDMRtRkx393Iim0bixPxN4jf3dwMIkhaDKhf7A==
+"@vitest/ui@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-1.0.4.tgz#810aa36bdd0d984483ae0c50d5163012d8191c7a"
+  integrity sha512-gd4p6e7pjukSe4joWS5wpnm/JcEfzCZUYkYWQOORqJK1mDJ0MOaXa/9BbPOEVO5TcvdnKvFJUdJpFHnqoyYwZA==
   dependencies:
-    "@vitest/utils" "1.0.3"
+    "@vitest/utils" "1.0.4"
     fast-glob "^3.3.2"
     fflate "^0.8.1"
     flatted "^3.2.9"
@@ -3924,10 +3924,10 @@
     picocolors "^1.0.0"
     sirv "^2.0.3"
 
-"@vitest/utils@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@vitest/utils/-/utils-1.0.3.tgz#ef808ba07084db26bb30b6b480d00d2d05d88752"
-  integrity sha512-ddGKC6CVjxwjA+ourSlMD6Emc+PhIH6+d25ISGBOQjryXi2NtKpsBSOt1yDT793c2Tqij8g8BBxe87jam3B95w==
+"@vitest/utils@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@vitest/utils/-/utils-1.0.4.tgz#6e673eaf87a2ff28a12688d17bdbb62cc22bf773"
+  integrity sha512-gsswWDXxtt0QvtK/y/LWukN7sGMYmnCcv1qv05CsY6cU/Y1zpGX1QuvLs+GO1inczpE6Owixeel3ShkjhYtGfA==
   dependencies:
     diff-sequences "^29.6.3"
     loupe "^2.3.7"
@@ -9732,10 +9732,10 @@ react-element-to-jsx-string@^15.0.0:
     is-plain-object "5.0.0"
     react-is "18.1.0"
 
-react-hook-form@7.48.2:
-  version "7.48.2"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.48.2.tgz#01150354d2be61412ff56a030b62a119283b9935"
-  integrity sha512-H0T2InFQb1hX7qKtDIZmvpU1Xfn/bdahWBN1fH19gSe4bBEqTfmlr7H3XWTaVtiK4/tpPaI1F3355GPMZYge+A==
+react-hook-form@7.49.0:
+  version "7.49.0"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.49.0.tgz#9a91edfba6b6983d4b443653a9b225a780a42b3e"
+  integrity sha512-gf4qyY4WiqK2hP/E45UUT6wt3Khl49pleEVcIzxhLBrD6m+GMWtLRk0vMrRv45D1ZH8PnpXFwRPv0Pewske2jw==
 
 react-is@18.1.0:
   version "18.1.0"
@@ -11510,10 +11510,10 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-vite-node@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-1.0.3.tgz#1bedfef496b9323e086690b5e13b7d3f819b8698"
-  integrity sha512-7AH08/UgJQm4gWFyXB6xQ1AvI+iMioM2duPmptytxEbkHamVrOhoha4REt9xvOgyiw91G9OykRlixN4zIsQOQg==
+vite-node@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-1.0.4.tgz#36d6c49e3b5015967d883845561ed67abe6553cc"
+  integrity sha512-9xQQtHdsz5Qn8hqbV7UKqkm8YkJhzT/zr41Dmt5N7AlD8hJXw/Z7y0QiD5I8lnTthV9Rvcvi0QW7PI0Fq83ZPg==
   dependencies:
     cac "^6.7.14"
     debug "^4.3.4"
@@ -11543,16 +11543,16 @@ vite@^5.0.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vitest@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/vitest/-/vitest-1.0.3.tgz#0577971549973dc98bd0813d8e82fd260bd55c66"
-  integrity sha512-zbMmAdRjTki6mYXEjCXMVH8Vb0FX0rAfCSTrbbn3Dqd8Zz6FzImBavkKYsOF+iXd4+k5RoOqi6RyTSoroRS0mw==
+vitest@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vitest/-/vitest-1.0.4.tgz#c4b39ba4fcba674499c90e28f4d8dd16fa1d4eb3"
+  integrity sha512-s1GQHp/UOeWEo4+aXDOeFBJwFzL6mjycbQwwKWX2QcYfh/7tIerS59hWQ20mxzupTJluA2SdwiBuWwQHH67ckg==
   dependencies:
-    "@vitest/expect" "1.0.3"
-    "@vitest/runner" "1.0.3"
-    "@vitest/snapshot" "1.0.3"
-    "@vitest/spy" "1.0.3"
-    "@vitest/utils" "1.0.3"
+    "@vitest/expect" "1.0.4"
+    "@vitest/runner" "1.0.4"
+    "@vitest/snapshot" "1.0.4"
+    "@vitest/spy" "1.0.4"
+    "@vitest/utils" "1.0.4"
     acorn-walk "^8.3.0"
     cac "^6.7.14"
     chai "^4.3.10"
@@ -11567,7 +11567,7 @@ vitest@1.0.3:
     tinybench "^2.5.1"
     tinypool "^0.8.1"
     vite "^5.0.0"
-    vite-node "1.0.3"
+    vite-node "1.0.4"
     why-is-node-running "^2.2.2"
 
 vm-browserify@^1.1.2:
