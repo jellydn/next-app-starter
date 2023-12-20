@@ -10248,10 +10248,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rustywind@0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.20.0.tgz#980502a0c6947188ab7db23e84117784c50a2faf"
-  integrity sha512-QkvAOAitwRHbjd2eEXa7P1yjte4SanKorYIwHg56jtKwyXVPgqHT53n3eqTi+UE5MNYGJD/OqWjWj4jwZhS5JA==
+rustywind@0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.21.0.tgz#2d847c21b9b81e3626e7e34911ef2259f68a2906"
+  integrity sha512-RQU079TTleK4Pf24+/PtBnwzat5bN+fod+D8JycaT7WqDIEyU0aBNmoicrCaT1KOLX8mvSu5Qb9cjhn0fFebcg==
   dependencies:
     https-proxy-agent "^4.0.0"
     proxy-from-env "^1.1.0"
