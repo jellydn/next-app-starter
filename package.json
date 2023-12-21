@@ -32,7 +32,7 @@
         "@radix-ui/react-slot": "1.0.2",
         "@tailwindcss/forms": "0.5.7",
         "@tanstack/react-query": "5.14.2",
-        "@tanstack/react-query-devtools": "5.14.2",
+        "@tanstack/react-query-devtools": "5.14.5",
         "class-variance-authority": "0.7.0",
         "clsx": "2.0.0",
         "consola": "3.2.3",
@@ -47,7 +47,7 @@
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "react-hook-form": "7.49.2",
-        "tailwind-merge": "2.1.0",
+        "tailwind-merge": "2.2.0",
         "tailwindcss-animate": "1.0.7",
         "zod": "3.22.4"
     },
