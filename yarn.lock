@@ -58,20 +58,20 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.23.5.tgz#ffb878728bb6bdcb6f4510aa51b1be9afb8cfd98"
   integrity sha512-uU27kfDRlhfKl+w1U6vp16IuvSLtjAxdArVXPa9BvLkrr7CYIsxH5adpHObeAGY/41+syctUWOZ140a2Rvkgjw==
 
-"@babel/core@7.23.6":
-  version "7.23.6"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.23.6.tgz#8be77cd77c55baadcc1eae1c33df90ab6d2151d4"
-  integrity sha512-FxpRyGjrMJXh7X3wGLGhNDCRiwpWEF74sKjTLDJSG5Kyvow3QZaG0Adbqzi9ZrVjTWpsX+2cxWXD71NMg93kdw==
+"@babel/core@7.23.7":
+  version "7.23.7"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.23.7.tgz#4d8016e06a14b5f92530a13ed0561730b5c6483f"
+  integrity sha512-+UpDgowcmqe36d4NwqvKsyPMlOLNGMsfMmQ5WGCu+siCe3t3dfe9njrzGfdN4qq+bcNUt0+Vw6haRxBOycs4dw==
   dependencies:
     "@ampproject/remapping" "^2.2.0"
     "@babel/code-frame" "^7.23.5"
     "@babel/generator" "^7.23.6"
     "@babel/helper-compilation-targets" "^7.23.6"
     "@babel/helper-module-transforms" "^7.23.3"
-    "@babel/helpers" "^7.23.6"
+    "@babel/helpers" "^7.23.7"
     "@babel/parser" "^7.23.6"
     "@babel/template" "^7.22.15"
-    "@babel/traverse" "^7.23.6"
+    "@babel/traverse" "^7.23.7"
     "@babel/types" "^7.23.6"
     convert-source-map "^2.0.0"
     debug "^4.1.0"
@@ -383,13 +383,13 @@
     "@babel/traverse" "^7.23.5"
     "@babel/types" "^7.23.5"
 
-"@babel/helpers@^7.23.6":
-  version "7.23.6"
-  resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.23.6.tgz#d03af2ee5fb34691eec0cda90f5ecbb4d4da145a"
-  integrity sha512-wCfsbN4nBidDRhpDhvcKlzHWCTlgJYUUdSJfzXb2NuBssDSIjc3xcb+znA7l+zYsFljAcGM0aFkN40cR3lXiGA==
+"@babel/helpers@^7.23.7":
+  version "7.23.7"
+  resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.23.7.tgz#eb543c36f81da2873e47b76ee032343ac83bba60"
+  integrity sha512-6AMnjCoC8wjqBzDHkuqpa7jAKwvMo4dC+lr/TFBz+ucfulO1XMpDnwWPGBNwClOKZ8h6xn5N81W/R5OrcKtCbQ==
   dependencies:
     "@babel/template" "^7.22.15"
-    "@babel/traverse" "^7.23.6"
+    "@babel/traverse" "^7.23.7"
     "@babel/types" "^7.23.6"
 
 "@babel/highlight@^7.23.4":
@@ -1279,10 +1279,10 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/traverse@^7.23.6":
-  version "7.23.6"
-  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.6.tgz#b53526a2367a0dd6edc423637f3d2d0f2521abc5"
-  integrity sha512-czastdK1e8YByZqezMPFiZ8ahwVMh/ESl9vPgvgdB9AmFMGP5jfpFax74AQgl5zj4XHzqeYAg2l8PuUeRS1MgQ==
+"@babel/traverse@^7.23.7":
+  version "7.23.7"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.7.tgz#9a7bf285c928cb99b5ead19c3b1ce5b310c9c305"
+  integrity sha512-tY3mM8rH9jM0YHFGyfC0/xf+SB5eKUu7HPj7/k3fpi9dAlsMc5YbQvDi0Sh2QTPXqMhyaAtzAr807TIyfQrmyg==
   dependencies:
     "@babel/code-frame" "^7.23.5"
     "@babel/generator" "^7.23.6"
@@ -3307,29 +3307,29 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
-"@tanstack/query-core@5.14.2":
-  version "5.14.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.14.2.tgz#ef0c1a93e142d5cce90b0ac2d0333a88fc0fbb95"
-  integrity sha512-QmoJvC72sSWs3hgGis8JdmlDvqLfYGWUK4UG6OR9Q6t28JMN9m2FDwKPqoSJ9YVocELCSjMt/FGjEiLfk8000Q==
+"@tanstack/query-core@5.15.5":
+  version "5.15.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.15.5.tgz#4e2b065abce6c7e9a00b2e5441c93c9762273646"
+  integrity sha512-GDwVfu8RPswqVu27+zuIkZINru6CN++zzBbBK+OnAgzxK8N4Obdi+sG2P0EO8rJAOw0fLyQTsO4GCZ1djwaUCg==
 
 "@tanstack/query-devtools@5.15.0":
   version "5.15.0"
   resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.15.0.tgz#46fe98491be19cbbce8e2f4bb56190f94913ebec"
   integrity sha512-oz+xBIf+fanmAQ3CZrV4t+1VZiK2nyTcH3zY3G8ukzw+LwX2QGa04ZfF+OCOVF6tPZ2dn1cekMibUb4tevf/aw==
 
-"@tanstack/react-query-devtools@5.15.3":
-  version "5.15.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.15.3.tgz#957f87c9dd386ce307ee6701c7928121a1197e8a"
-  integrity sha512-mOmYOSGkfrvuY5bYdGOm3nB7hywbVzNRvRNakHKcjwvBGhLYLEFGgdbzIXwEeaKyHOvplET9fWfdpoV90sff/A==
+"@tanstack/react-query-devtools@5.15.5":
+  version "5.15.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.15.5.tgz#f2ad45be5936b52bfdc224f36c9195cc17b5e572"
+  integrity sha512-AixLsTYGB52Ou7snhbW4QlTHZ347VJOl+wjXqiLlK9/oENxpaVI92Nl4VIsGiVRrscwv5lRMYUGucM+UYShyEQ==
   dependencies:
     "@tanstack/query-devtools" "5.15.0"
 
-"@tanstack/react-query@5.15.3":
-  version "5.15.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.15.3.tgz#e3ce4802790a486caa5b74429b012841fade637b"
-  integrity sha512-FP30X1oLUJGcekg92cwpRk6+wtzWcsvbz+ezoxOovI8VhtmTKe7R/hDmdPyFML1RVht01ugq/jmJOKygas61EA==
+"@tanstack/react-query@5.15.5":
+  version "5.15.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.15.5.tgz#c8709de9fc28b0caa6aed4f70fefbf0f116d991d"
+  integrity sha512-JSPpzsJPqpNySgjMhAvBpF3gVhtlI/0bZrBmwmcD/ewYYOExll+tIz13gkgnCfNA1qTJQnbv7vdc2gw594vq9Q==
   dependencies:
-    "@tanstack/query-core" "5.14.2"
+    "@tanstack/query-core" "5.15.5"
 
 "@testing-library/dom@^9.0.0":
   version "9.3.3"
@@ -5188,6 +5188,11 @@ clsx@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-2.0.0.tgz#12658f3fd98fafe62075595a5c30e43d18f3d00b"
   integrity sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==
+
+clsx@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-2.1.0.tgz#e851283bcb5c80ee7608db18487433f7b23f77cb"
+  integrity sha512-m3iNNWpd9rl3jvvcBnu70ylMdrXt8Vlq4HYadnU5fwcOtvkSQWPmj7amUcDT2qYI7risszBjI5AUIUox9D16pg==
 
 color-convert@^1.9.0:
   version "1.9.3"
