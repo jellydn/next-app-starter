@@ -3317,29 +3317,29 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
-"@tanstack/query-core@5.17.10":
-  version "5.17.10"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.17.10.tgz#8b799f4a973ca1e2da8936b27aadc472900e6f36"
-  integrity sha512-bJ2oQUDBftvHcEkLS3gyzzShSeZpJyzNNRu8oHK13iNdsofyaDXtNO/c1Zy/PZYVX+PhqOXwoT42gMiEMRSSfQ==
+"@tanstack/query-core@5.17.15":
+  version "5.17.15"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.17.15.tgz#e73a3036e72398493ef9eee1678f89938111344c"
+  integrity sha512-QURxpu77/ICA4d61aPvV7EcJ2MwmksxUejKBaq/xLcO2TUJAlXf4PFKHC/WxnVFI/7F1jeLx85AO3Vpk0+uBXw==
 
 "@tanstack/query-devtools@5.17.7":
   version "5.17.7"
   resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.17.7.tgz#9f9e44a32d08ecd5c9fe3ede62a114d6d6e240d5"
   integrity sha512-TfgvOqza5K7Sk6slxqkRIvXlEJoUoPSsGGwpuYSrpqgSwLSSvPPpZhq7hv7hcY5IvRoTNGoq6+MT01C/jILqoQ==
 
-"@tanstack/react-query-devtools@5.17.12":
-  version "5.17.12"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.17.12.tgz#61b62a230472243931982d0c802d1a1bc164fc5d"
-  integrity sha512-5n2oqe9GUD7+QNJqfFm8RqQVVFOeaLQDujBnhyyILDq8XPB6wymTEaS6OJ/CdrhCYKoQe3Uh8E6u9ChABEMuhA==
+"@tanstack/react-query-devtools@5.17.15":
+  version "5.17.15"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.17.15.tgz#c59b780b8dd6f3aa13658190e0bea2c0db481ba4"
+  integrity sha512-7IZzkNcPpgPkGG/v1CRIhhdA+H4rraVlWHmvmV9zMAw9MqPopOyz5wz7YXX4DTg8oGStIO8rVoW+IU9j0TmAkg==
   dependencies:
     "@tanstack/query-devtools" "5.17.7"
 
-"@tanstack/react-query@5.17.12":
-  version "5.17.12"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.17.12.tgz#7d5c05615f02a5f27a792e4a8019a85c86630d00"
-  integrity sha512-mJQ+3da1ug4t9b+GycUuNzMs5hd6t+F4tJ1hqyaN/dlETP+bWwYwrv2GXFIbZIfI1K1Hu+XWZ6HUhRPbNtZ4QQ==
+"@tanstack/react-query@5.17.15":
+  version "5.17.15"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.17.15.tgz#2214491b97d77613155a3607a3af163ecde613b6"
+  integrity sha512-9qur91mOihaUN7pXm6ioDtS+4qgkBcCiIaZyvi3lZNcQZsrMGCYZ+eP3hiFrV4khoJyJrFUX1W0NcCVlgwNZxQ==
   dependencies:
-    "@tanstack/query-core" "5.17.10"
+    "@tanstack/query-core" "5.17.15"
 
 "@tanstack/react-virtual@^3.0.0-beta.60":
   version "3.0.1"
@@ -8391,10 +8391,10 @@ lru-cache@^6.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.1.0.tgz#2098d41c2dc56500e6c88584aa656c84de7d0484"
   integrity sha512-/1clY/ui8CzjKFyjdvwPWJUYKiFVXG2I2cY0ssG7h4+hwk+XOIX7ZSG9Q7TW8TW3Kp3BUSqgFWBLgL4PJ+Blag==
 
-lucide-react@0.309.0:
-  version "0.309.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.309.0.tgz#7369893cb4b074a0a0b1d3acdc6fd9a8bdb5add1"
-  integrity sha512-zNVPczuwFrCfksZH3zbd1UDE6/WYhYAdbe2k7CImVyPAkXLgIwbs6eXQ4loigqDnUFjyFYCI5jZ1y10Kqal0dg==
+lucide-react@0.311.0:
+  version "0.311.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.311.0.tgz#d072fd1bbc52a5be4261d3323634dc3349b77b2e"
+  integrity sha512-kyMc6YyVepMVnmZT2X1sl7iyf7w6l8YdhEVKmcBLiT0lMlXqcPGsr2/drYP1/VaGf7DmBJ4/CjQAmOpDd8R8uw==
 
 lz-string@^1.5.0:
   version "1.5.0"
