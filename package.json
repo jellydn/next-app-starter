@@ -16,7 +16,7 @@
 		"test:ui": "vitest --ui",
 		"typecheck": "tsc --noEmit"
 	},
-	"babel": {
+	
 		"presets": [
 			"next/babel"
 		]
@@ -107,6 +107,6 @@
 			"prettier --write"
 		],
 		"package.json": "sort-package-json"
-	},
+	}
 	"packageManager": "yarn@4.1.0"
 }
