@@ -1,6 +1,9 @@
 # Welcome to next-app-starter 👋
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
@@ -15,6 +18,10 @@
 ### ✨ [Demo](https://next-app-starter.vercel.app)
 
 ![screenshot](./screenshot.png)
+
+## Pre-requirements
+
+-   [Bun — A fast all-in-one JavaScript runtime](https://bun.sh/)
 
 ## 💻 Stack
 
@@ -35,21 +42,21 @@
 
 ## 📝 Project Summary
 
-- [**app**](app): Main application logic and entry point.
-- [**components**](components): Reusable UI components.
-- [**pages**](pages): Individual pages/views of the application.
-- [**prisma**](prisma): Database ORM and migration scripts.
-- [**public**](public): Static assets accessible to the public.
-- [**store**](store): State management for the application.
-- [**tests**](tests): Unit and integration tests.
-- [**types**](types): Custom TypeScript types and interfaces.
-- [**storybook**](storybook): Component library and documentation.
-- [**.github/workflows**](.github/workflows): CI/CD workflows for GitHub Actions.
+-   [**app**](app): Main application logic and entry point.
+-   [**components**](components): Reusable UI components.
+-   [**pages**](pages): Individual pages/views of the application.
+-   [**prisma**](prisma): Database ORM and migration scripts.
+-   [**public**](public): Static assets accessible to the public.
+-   [**store**](store): State management for the application.
+-   [**tests**](tests): Unit and integration tests.
+-   [**types**](types): Custom TypeScript types and interfaces.
+-   [**storybook**](storybook): Component library and documentation.
+-   [**.github/workflows**](.github/workflows): CI/CD workflows for GitHub Actions.
 
 ## Install
 
 ```sh
-yarn install
+bun install
 ```
 
 ## Usage
@@ -57,19 +64,19 @@ yarn install
 Create .env file base on .env.example then run below command
 
 ```sh
-yarn dev
+bun run dev
 ```
 
 ## Run tests
 
 ```sh
-yarn test
+bun run test
 ```
 
 ## Run storybook
 
 ```sh
-yarn storybook
+bun run storybook
 ```
 
 ## 📄 License
