@@ -5,18 +5,18 @@
   "globRoot": ".",
   "dictionaryDefinitions": [
     {
-      "name": "next-app-starter",
-      "path": "./next-app-starter.txt",
+      "name": "cspell-tool",
+      "path": "./cspell-tool.txt",
       "addWords": true
     }
   ],
   "dictionaries": [
-    "next-app-starter"
+    "cspell-tool"
   ],
   "ignorePaths": [
     "node_modules",
     "dist",
     "build",
-    "/next-app-starter.txt"
+    "/cspell-tool.txt"
   ]
 }
