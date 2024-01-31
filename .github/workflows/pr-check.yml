@@ -1,44 +1,44 @@
 name: Linter & Typecheck
 on:
-    push:
-        branches:
-            - main
-    pull_request:
-        branches:
-            - main
-    workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
 jobs:
-    typecheck:
-        runs-on: ubuntu-latest
-        continue-on-error: true
-        steps:
-            - name: 🛑 Cancel Previous Runs
-              uses: styfle/cancel-workflow-action@0.12.1
-            - id: checkout
-              name: Checkout
-              uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
-              with:
-                  node-version: 18
-            - uses: bahmutov/npm-install@v1
-            - id: Typecheck
-              name: Checking Typescript Error
-              run: |
-                  yarn typecheck
-    linter:
-        runs-on: ubuntu-latest
-        continue-on-error: true
-        steps:
-            - name: 🛑 Cancel Previous Runs
-              uses: styfle/cancel-workflow-action@0.12.1
-            - id: checkout
-              name: Checkout
-              uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
-              with:
-                  node-version: 18
-            - uses: bahmutov/npm-install@v1
-            - id: linter
-              name: Linter check
-              run: |
-                  yarn lint
+  typecheck:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: 🛑 Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.12.1
+      - id: checkout
+        name: Checkout
+        uses: actions/checkout@v4
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+      - name: Install dependencies
+        run: bun install
+      - id: Typecheck
+        name: Checking Typescript Error
+        run: |
+          bun run typecheck
+  linter:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: 🛑 Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.12.1
+      - id: checkout
+        name: Checkout
+        uses: actions/checkout@v4
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+      - name: Install dependencies
+        run: bun install
+      - id: linter
+        name: Linter check
+        run: |
+          bun run lint
