@@ -1,6 +1,6 @@
 {
 	"name": "next-app-starter",
-	"version": "0.2.0",
+	"version": "1.22.21",
 	"private": true,
 	"scripts": {
 		"build": "prisma generate && next build",
