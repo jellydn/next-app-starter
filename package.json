@@ -43,7 +43,7 @@
 		"next-auth": "4.24.5",
 		"next-secure-headers": "2.2.0",
 		"next-validations": "0.4.2",
-		"nodemailer": "6.9.8",
+		"nodemailer": "6.9.9",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"react-hook-form": "7.50.1",
