@@ -4,9 +4,9 @@ import { type Atom, Provider } from 'jotai';
 import { SessionProvider } from 'next-auth/react';
 import type { AppProps } from 'next/app';
 
+import logger from '../logger';
 import store from '../store';
 import '../styles/globals.css';
-import logger from '../logger';
 
 if (process.env.NEXT_PUBLIC_API_MOCKING === 'yes') {
     if (typeof window === 'undefined') {
