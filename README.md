@@ -79,6 +79,14 @@ bun run test
 bun run storybook
 ```
 
+## Pre-commit
+
+This project uses [pre-commit](https://pre-commit.com/) to enforce code quality and consistency. To install pre-commit hooks, run:
+
+```sh
+pre-commit install
+```
+
 ## 📄 License
 
 This project is licensed under the **MIT License** - see the [**MIT License**](https://github.com/jellydn/next-app-starter/blob/main/LICENSE) file for details.
@@ -89,9 +97,9 @@ This project is licensed under the **MIT License** - see the [**MIT License**](h
 - Twitter: [@jellydn](https://twitter.com/jellydn)
 - Github: [@jellydn](https://github.com/jellydn)
 
-## Stargazers 🌟
+## Start History 🌟
 
-[![Stargazers repo roster for jellydn/next-app-starter](https://reporoster.com/stars/jellydn/next-app-starter)](https://github.com/jellydn/next-app-starter/stargazers)
+[![Star History Chart](https://api.star-history.com/svg?repos=jellydn/next-app-starter&type=Date)](https://star-history.com/#jellydn/next-app-starter)
 
 ## Show your support
 
