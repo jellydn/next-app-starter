@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
 import { describe, test, vi } from 'vitest';
 
-import Header from '../components/Header';
 import { SessionProvider } from 'next-auth/react';
+import Header from '../components/Header';
 
 global.fetch = vi.fn();
 

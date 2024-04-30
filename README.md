@@ -21,37 +21,37 @@
 
 ## Pre-requirements
 
--   [Bun — A fast all-in-one JavaScript runtime](https://bun.sh/)
+- [Bun — A fast all-in-one JavaScript runtime](https://bun.sh/)
 
 ## 💻 Stack
 
--   [NextJS: the React Framework for Production](https://nextjs.org/docs)
--   [Tailwindcss: rapidly build modern websites without ever leaving your HTML](https://tailwindcss.com/)
--   [shadcn/ui: Beautifully designed components built with Radix UI and Tailwind CSS.](https://github.com/shadcn/ui)
--   [Jotai: primitive and flexible state management for React.](https://docs.pmnd.rs/jotai/introduction)
--   [Prisma: next-generation ORM for Node.js and TypeScrip](https://www.prisma.io/)
--   [NextAuth.js: Authentication for Next.js](https://next-auth.js.org/v3/getting-started/introduction)
--   [next-validations: NextJS API Validations, support Yup, Fastest-Validator, Joi, and more](https://next-validations.productsway.com/)
--   [zod: TypeScript-first schema validation with static type inference](https://github.com/colinhacks/zod)
--   [consola: Elegant Console Logger for Node.js and Browser 🐨](https://github.com/unjs/consola)
--   [Storybook: build bulletproof UI components faster](https://storybook.js.org)
--   [React-hook-form: performance, flexible and extensible forms with easy-to-use validation](https://www.react-hook-form.com/)
--   [react-testing: simple and complete testing utilities that encourage good testing practices](https://testing-library.com/)
--   [React-query: performant and powerful data synchronization for React](https://react-query.tanstack.com/)
--   And other standard tools as [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [nano-staged](https://github.com/usmanyunusov/nano-staged)
+- [NextJS: the React Framework for Production](https://nextjs.org/docs)
+- [Tailwindcss: rapidly build modern websites without ever leaving your HTML](https://tailwindcss.com/)
+- [shadcn/ui: Beautifully designed components built with Radix UI and Tailwind CSS.](https://github.com/shadcn/ui)
+- [Jotai: primitive and flexible state management for React.](https://docs.pmnd.rs/jotai/introduction)
+- [Prisma: next-generation ORM for Node.js and TypeScrip](https://www.prisma.io/)
+- [NextAuth.js: Authentication for Next.js](https://next-auth.js.org/v3/getting-started/introduction)
+- [next-validations: NextJS API Validations, support Yup, Fastest-Validator, Joi, and more](https://next-validations.productsway.com/)
+- [zod: TypeScript-first schema validation with static type inference](https://github.com/colinhacks/zod)
+- [consola: Elegant Console Logger for Node.js and Browser 🐨](https://github.com/unjs/consola)
+- [Storybook: build bulletproof UI components faster](https://storybook.js.org)
+- [React-hook-form: performance, flexible and extensible forms with easy-to-use validation](https://www.react-hook-form.com/)
+- [react-testing: simple and complete testing utilities that encourage good testing practices](https://testing-library.com/)
+- [React-query: performant and powerful data synchronization for React](https://react-query.tanstack.com/)
+- And other standard tools as [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [nano-staged](https://github.com/usmanyunusov/nano-staged)
 
 ## 📝 Project Summary
 
--   [**app**](app): Main application logic and entry point.
--   [**components**](components): Reusable UI components.
--   [**pages**](pages): Individual pages/views of the application.
--   [**prisma**](prisma): Database ORM and migration scripts.
--   [**public**](public): Static assets accessible to the public.
--   [**store**](store): State management for the application.
--   [**tests**](tests): Unit and integration tests.
--   [**types**](types): Custom TypeScript types and interfaces.
--   [**storybook**](storybook): Component library and documentation.
--   [**.github/workflows**](.github/workflows): CI/CD workflows for GitHub Actions.
+- [**app**](app): Main application logic and entry point.
+- [**components**](components): Reusable UI components.
+- [**pages**](pages): Individual pages/views of the application.
+- [**prisma**](prisma): Database ORM and migration scripts.
+- [**public**](public): Static assets accessible to the public.
+- [**store**](store): State management for the application.
+- [**tests**](tests): Unit and integration tests.
+- [**types**](types): Custom TypeScript types and interfaces.
+- [**storybook**](storybook): Component library and documentation.
+- [**.github/workflows**](.github/workflows): CI/CD workflows for GitHub Actions.
 
 ## Install
 
@@ -85,9 +85,9 @@ This project is licensed under the **MIT License** - see the [**MIT License**](h
 
 ## Author
 
--   Website: https://productsway.com/
--   Twitter: [@jellydn](https://twitter.com/jellydn)
--   Github: [@jellydn](https://github.com/jellydn)
+- Website: https://productsway.com/
+- Twitter: [@jellydn](https://twitter.com/jellydn)
+- Github: [@jellydn](https://github.com/jellydn)
 
 ## Stargazers 🌟
 

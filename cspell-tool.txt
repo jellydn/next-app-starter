@@ -1,10 +1,11 @@
 adsbygoogle
+Nonoctal
+Instantiator
 consola
 typecheck
 headlessui
 loglevel
-trivago
-productsway
+biomejs
 rustywind
 shadcn
 jellydn

@@ -1,7 +1,0 @@
-{
-    "extends": [
-        "productsway/react",
-        "plugin:@next/next/recommended",
-        "plugin:storybook/recommended"
-    ]
-}

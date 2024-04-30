@@ -22,7 +22,7 @@ function Header({ links = [] }: HeaderProps) {
         <header className="text-gray-600 body-font">
             <div className="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
                 <Link
-                    passHref
+                    passHref={true}
                     href="/"
                     className="flex items-center mb-4 font-medium text-gray-900 md:mb-0 title-font"
                 >
@@ -86,7 +86,7 @@ function Header({ links = [] }: HeaderProps) {
                         </span>
 
                         <Link
-                            passHref
+                            passHref={true}
                             href="/api/auth/signout"
                             className={styles.button}
                             onClick={async (e) => {
