@@ -38,7 +38,7 @@
         "consola": "3.2.3",
         "jotai": "2.8.0",
         "loglevel": "1.9.1",
-        "lucide-react": "0.377.0",
+        "lucide-react": "0.378.0",
         "next": "14.2.3",
         "next-auth": "4.24.7",
         "next-secure-headers": "2.2.0",
@@ -49,7 +49,7 @@
         "react-hook-form": "7.51.3",
         "tailwind-merge": "2.3.0",
         "tailwindcss-animate": "1.0.7",
-        "zod": "3.23.5"
+        "zod": "3.23.6"
     },
     "devDependencies": {
         "@babel/core": "7.24.5",
@@ -60,7 +60,7 @@
         "@storybook/nextjs": "8.0.9",
         "@storybook/react": "8.0.9",
         "@storybook/testing-library": "0.2.2",
-        "@testing-library/jest-dom": "6.4.2",
+        "@testing-library/jest-dom": "6.4.3",
         "@testing-library/react": "15.0.6",
         "@types/react": "18.3.1",
         "@vitejs/plugin-react": "4.2.1",
