@@ -22,7 +22,7 @@
         ]
     },
     "dependencies": {
-        "@headlessui/react": "2.1.1",
+        "@headlessui/react": "2.1.2",
         "@heroicons/react": "2.1.4",
         "@hookform/devtools": "4.3.1",
         "@hookform/resolvers": "3.8.0",
