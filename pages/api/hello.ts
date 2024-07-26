@@ -8,7 +8,6 @@ const schema = z.object({
 
 const validate = withValidation({
     schema,
-    type: 'Zod',
     mode: 'query',
 });
 
