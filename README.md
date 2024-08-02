@@ -22,6 +22,7 @@
 ## Pre-requirements
 
 - [Bun — A fast all-in-one JavaScript runtime](https://bun.sh/)
+- [Biome, toolchain of the web](https://biomejs.dev/)
 
 ## 💻 Stack
 
@@ -38,7 +39,6 @@
 - [React-hook-form: performance, flexible and extensible forms with easy-to-use validation](https://www.react-hook-form.com/)
 - [react-testing: simple and complete testing utilities that encourage good testing practices](https://testing-library.com/)
 - [React-query: performant and powerful data synchronization for React](https://react-query.tanstack.com/)
-- And other standard tools as [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [nano-staged](https://github.com/usmanyunusov/nano-staged)
 
 ## 📝 Project Summary
 
