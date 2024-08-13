@@ -81,7 +81,7 @@
         "rustywind": "0.22.0",
         "sort-package-json": "2.10.0",
         "storybook": "8.2.9",
-        "tailwindcss": "3.4.9",
+        "tailwindcss": "3.4.10",
         "typescript": "5.5.4",
         "vite": "5.4.0",
         "vitest": "2.0.5"
