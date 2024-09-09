@@ -22,7 +22,7 @@
         ]
     },
     "dependencies": {
-        "@headlessui/react": "2.1.5",
+        "@headlessui/react": "2.1.6",
         "@heroicons/react": "2.1.5",
         "@hookform/devtools": "4.3.1",
         "@hookform/resolvers": "3.9.0",
@@ -40,7 +40,7 @@
         "jotai": "2.9.3",
         "loglevel": "1.9.2",
         "lucide-react": "0.439.0",
-        "next": "14.2.8",
+        "next": "14.2.9",
         "next-auth": "4.24.7",
         "next-secure-headers": "2.2.0",
         "next-validations": "1.0.1",
@@ -82,7 +82,7 @@
         "sort-package-json": "2.10.1",
         "storybook": "8.2.9",
         "tailwindcss": "3.4.10",
-        "typescript": "5.5.4",
+        "typescript": "5.6.2",
         "vite": "5.4.3",
         "vitest": "2.0.5"
     },
