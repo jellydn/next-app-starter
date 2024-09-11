@@ -22,7 +22,7 @@
         ]
     },
     "dependencies": {
-        "@headlessui/react": "2.1.6",
+        "@headlessui/react": "2.1.7",
         "@heroicons/react": "2.1.5",
         "@hookform/devtools": "4.3.1",
         "@hookform/resolvers": "3.9.0",
@@ -55,11 +55,11 @@
     "devDependencies": {
         "@babel/core": "7.25.2",
         "@biomejs/biome": "1.8.3",
-        "@storybook/addon-essentials": "8.2.9",
-        "@storybook/addon-interactions": "8.2.9",
-        "@storybook/addon-links": "8.2.9",
-        "@storybook/nextjs": "8.2.9",
-        "@storybook/react": "8.2.9",
+        "@storybook/addon-essentials": "8.3.0",
+        "@storybook/addon-interactions": "8.3.0",
+        "@storybook/addon-links": "8.3.0",
+        "@storybook/nextjs": "8.3.0",
+        "@storybook/react": "8.3.0",
         "@storybook/testing-library": "0.2.2",
         "@testing-library/jest-dom": "6.5.0",
         "@testing-library/react": "16.0.1",
@@ -80,8 +80,8 @@
         "prisma": "5.19.1",
         "rustywind": "0.22.0",
         "sort-package-json": "2.10.1",
-        "storybook": "8.2.9",
-        "tailwindcss": "3.4.10",
+        "storybook": "8.3.0",
+        "tailwindcss": "3.4.11",
         "typescript": "5.6.2",
         "vite": "5.4.4",
         "vitest": "2.0.5"
