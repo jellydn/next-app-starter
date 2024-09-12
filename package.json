@@ -22,7 +22,7 @@
         ]
     },
     "dependencies": {
-        "@headlessui/react": "2.1.7",
+        "@headlessui/react": "2.1.8",
         "@heroicons/react": "2.1.5",
         "@hookform/devtools": "4.3.1",
         "@hookform/resolvers": "3.9.0",
@@ -31,15 +31,15 @@
         "@radix-ui/react-icons": "1.3.0",
         "@radix-ui/react-slot": "1.1.0",
         "@tailwindcss/forms": "0.5.9",
-        "@tanstack/react-query": "5.55.4",
-        "@tanstack/react-query-devtools": "5.55.4",
+        "@tanstack/react-query": "5.56.1",
+        "@tanstack/react-query-devtools": "5.56.1",
         "@typeschema/zod": "0.14.0",
         "class-variance-authority": "0.7.0",
         "clsx": "2.1.1",
         "consola": "3.2.3",
         "jotai": "2.9.3",
         "loglevel": "1.9.2",
-        "lucide-react": "0.439.0",
+        "lucide-react": "0.441.0",
         "next": "14.2.10",
         "next-auth": "4.24.7",
         "next-secure-headers": "2.2.0",
@@ -54,7 +54,7 @@
     },
     "devDependencies": {
         "@babel/core": "7.25.2",
-        "@biomejs/biome": "1.8.3",
+        "@biomejs/biome": "1.9.0",
         "@storybook/addon-essentials": "8.3.0",
         "@storybook/addon-interactions": "8.3.0",
         "@storybook/addon-links": "8.3.0",
@@ -65,7 +65,7 @@
         "@testing-library/react": "16.0.1",
         "@types/react": "18.3.5",
         "@vitejs/plugin-react": "4.3.1",
-        "@vitest/ui": "2.0.5",
+        "@vitest/ui": "2.1.0",
         "autoprefixer": "10.4.20",
         "babel-jest": "29.7.0",
         "babel-loader": "9.1.3",
@@ -84,7 +84,7 @@
         "tailwindcss": "3.4.11",
         "typescript": "5.6.2",
         "vite": "5.4.4",
-        "vitest": "2.0.5"
+        "vitest": "2.1.0"
     },
     "msw": {
         "workerDirectory": "public"
