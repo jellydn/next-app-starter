@@ -39,7 +39,7 @@
         "consola": "3.2.3",
         "jotai": "2.10.0",
         "loglevel": "1.9.2",
-        "lucide-react": "0.447.0",
+        "lucide-react": "0.451.0",
         "next": "14.2.14",
         "next-auth": "4.24.8",
         "next-secure-headers": "2.2.0",
