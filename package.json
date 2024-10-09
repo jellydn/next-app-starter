@@ -40,7 +40,7 @@
         "jotai": "2.10.0",
         "loglevel": "1.9.2",
         "lucide-react": "0.451.0",
-        "next": "14.2.14",
+        "next": "14.2.15",
         "next-auth": "4.24.8",
         "next-secure-headers": "2.2.0",
         "next-validations": "1.0.2",
@@ -82,7 +82,7 @@
         "sort-package-json": "2.10.1",
         "storybook": "8.3.5",
         "tailwindcss": "3.4.13",
-        "typescript": "5.6.2",
+        "typescript": "5.6.3",
         "vite": "5.4.8",
         "vitest": "2.1.2"
     },
