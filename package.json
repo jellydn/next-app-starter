@@ -41,7 +41,7 @@
         "loglevel": "1.9.2",
         "lucide-react": "0.453.0",
         "next": "15.0.1",
-        "next-auth": "4.24.8",
+        "next-auth": "4.24.9",
         "next-secure-headers": "2.2.0",
         "next-validations": "1.0.2",
         "nodemailer": "6.9.15",
