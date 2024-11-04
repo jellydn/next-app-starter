@@ -70,7 +70,7 @@
         "babel-jest": "29.7.0",
         "babel-loader": "9.2.1",
         "c8": "10.1.2",
-        "concurrently": "9.0.1",
+        "concurrently": "9.1.0",
         "husky": "9.1.6",
         "identity-obj-proxy": "3.0.0",
         "jest-fetch-mock": "3.0.3",
