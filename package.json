@@ -55,17 +55,17 @@
     "devDependencies": {
         "@babel/core": "7.26.0",
         "@biomejs/biome": "1.9.4",
-        "@storybook/addon-essentials": "8.4.2",
-        "@storybook/addon-interactions": "8.4.2",
-        "@storybook/addon-links": "8.4.2",
-        "@storybook/nextjs": "8.4.2",
-        "@storybook/react": "8.4.2",
+        "@storybook/addon-essentials": "8.4.3",
+        "@storybook/addon-interactions": "8.4.3",
+        "@storybook/addon-links": "8.4.3",
+        "@storybook/nextjs": "8.4.3",
+        "@storybook/react": "8.4.3",
         "@storybook/testing-library": "0.2.2",
         "@testing-library/jest-dom": "6.6.3",
         "@testing-library/react": "16.0.1",
         "@types/react": "18.3.12",
         "@vitejs/plugin-react": "4.3.3",
-        "@vitest/ui": "2.1.4",
+        "@vitest/ui": "2.1.5",
         "autoprefixer": "10.4.20",
         "babel-jest": "29.7.0",
         "babel-loader": "9.2.1",
@@ -80,11 +80,11 @@
         "prisma": "5.22.0",
         "rustywind": "0.23.1",
         "sort-package-json": "2.10.1",
-        "storybook": "8.4.2",
+        "storybook": "8.4.3",
         "tailwindcss": "3.4.14",
         "typescript": "5.6.3",
         "vite": "5.4.11",
-        "vitest": "2.1.4"
+        "vitest": "2.1.5"
     },
     "msw": {
         "workerDirectory": "public"
