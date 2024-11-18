@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "@headlessui/react": "2.2.0",
-        "@heroicons/react": "2.1.5",
+        "@heroicons/react": "2.2.0",
         "@hookform/devtools": "4.3.1",
         "@hookform/resolvers": "3.9.1",
         "@next-auth/prisma-adapter": "1.0.7",
@@ -71,7 +71,7 @@
         "babel-loader": "9.2.1",
         "c8": "10.1.2",
         "concurrently": "9.1.0",
-        "husky": "9.1.6",
+        "husky": "9.1.7",
         "identity-obj-proxy": "3.0.0",
         "jest-fetch-mock": "3.0.3",
         "jsdom": "25.0.1",
