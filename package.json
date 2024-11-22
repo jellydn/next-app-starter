@@ -82,7 +82,7 @@
         "sort-package-json": "2.11.0",
         "storybook": "8.4.5",
         "tailwindcss": "3.4.15",
-        "typescript": "5.6.3",
+        "typescript": "5.7.2",
         "vite": "5.4.11",
         "vitest": "2.1.5"
     },
