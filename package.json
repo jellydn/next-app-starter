@@ -75,7 +75,7 @@
         "identity-obj-proxy": "3.0.0",
         "jest-fetch-mock": "3.0.3",
         "jsdom": "25.0.1",
-        "msw": "1.3.5",
+        "msw": "2.6.8",
         "postcss": "8.4.49",
         "prisma": "6.0.1",
         "rustywind": "0.23.1",
