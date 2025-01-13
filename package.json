@@ -63,7 +63,7 @@
         "@storybook/testing-library": "0.2.2",
         "@testing-library/jest-dom": "6.6.3",
         "@testing-library/react": "16.1.0",
-        "@types/react": "19.0.5",
+        "@types/react": "19.0.6",
         "@vitejs/plugin-react": "4.3.4",
         "@vitest/ui": "2.1.8",
         "autoprefixer": "10.4.20",
