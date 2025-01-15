@@ -74,7 +74,7 @@
         "husky": "9.1.7",
         "identity-obj-proxy": "3.0.0",
         "jest-fetch-mock": "3.0.3",
-        "jsdom": "25.0.1",
+        "jsdom": "26.0.0",
         "msw": "2.7.0",
         "postcss": "8.5.1",
         "prisma": "6.2.1",
