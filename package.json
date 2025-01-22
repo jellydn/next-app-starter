@@ -40,7 +40,7 @@
         "jotai": "2.11.1",
         "loglevel": "1.9.2",
         "lucide-react": "0.473.0",
-        "next": "15.1.5",
+        "next": "15.1.6",
         "next-auth": "4.24.11",
         "next-secure-headers": "2.2.0",
         "next-validations": "1.0.3",
