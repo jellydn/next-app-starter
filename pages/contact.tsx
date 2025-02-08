@@ -53,7 +53,7 @@ export default function Contact() {
                                         {...register('email', {
                                             required: true,
                                         })}
-                                        className="py-1 px-3 w-full text-base leading-8 text-gray-700 bg-white rounded border border-gray-300 transition-colors duration-200 ease-in-out outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+                                        className="py-1 px-3 w-full text-base leading-8 text-gray-700 bg-white rounded border border-gray-300 transition-colors duration-200 ease-in-out outline-hidden focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
                                     />
                                 </label>
                                 {errors.email && (
@@ -73,7 +73,7 @@ export default function Contact() {
                                         {...register('message', {
                                             required: true,
                                         })}
-                                        className="py-1 px-3 w-full h-32 text-base leading-6 text-gray-700 bg-white rounded border border-gray-300 transition-colors duration-200 ease-in-out outline-none resize-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+                                        className="py-1 px-3 w-full h-32 text-base leading-6 text-gray-700 bg-white rounded border border-gray-300 transition-colors duration-200 ease-in-out outline-hidden resize-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
                                         defaultValue=""
                                     />
                                 </label>

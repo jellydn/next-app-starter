@@ -68,7 +68,7 @@ function Header({ links = [] }: HeaderProps) {
                 )}
 
                 {session && (
-                    <div className="inline-flex items-center py-1 px-3 mt-4 text-base bg-gray-100 rounded border-0 md:mt-0 hover:bg-gray-200 focus:outline-none">
+                    <div className="inline-flex items-center py-1 px-3 mt-4 text-base bg-gray-100 rounded border-0 md:mt-0 hover:bg-gray-200 focus:outline-hidden">
                         {session.user.image && (
                             <span
                                 style={{
