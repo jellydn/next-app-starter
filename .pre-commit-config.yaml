@@ -11,8 +11,8 @@ repos:
         # Those are not supported by biomejs yet, refer https://biomejs.dev/internals/language-support/
         types_or: [html, css, markdown]
   - repo: https://github.com/biomejs/pre-commit
-    rev: "v0.1.0" # Use the sha / tag you want to point at
+    rev: "v2.0.0-beta.1" # Use the sha / tag you want to point at
     hooks:
       - id: biome-check
         exclude: "package.json"
-        additional_dependencies: ["@biomejs/biome@1.7.1"]
+        additional_dependencies: ["@biomejs/biome@1.9.4"]
