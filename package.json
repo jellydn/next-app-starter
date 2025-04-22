@@ -32,7 +32,7 @@
         "@radix-ui/react-slot": "1.2.0",
         "@tailwindcss/forms": "0.5.10",
         "@tanstack/react-query": "5.74.4",
-        "@tanstack/react-query-devtools": "5.74.4",
+        "@tanstack/react-query-devtools": "5.74.6",
         "@typeschema/zod": "0.14.0",
         "class-variance-authority": "0.7.1",
         "clsx": "2.1.1",
