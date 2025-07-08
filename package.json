@@ -44,13 +44,13 @@
         "next-auth": "4.24.11",
         "next-secure-headers": "2.2.0",
         "next-validations": "1.1.0",
-        "nodemailer": "7.0.4",
+        "nodemailer": "7.0.5",
         "react": "19.1.0",
         "react-dom": "19.1.0",
         "react-hook-form": "7.60.0",
         "tailwind-merge": "3.3.1",
         "tailwindcss-animate": "1.0.7",
-        "zod": "3.25.74"
+        "zod": "3.25.75"
     },
     "devDependencies": {
         "@babel/core": "7.28.0",
