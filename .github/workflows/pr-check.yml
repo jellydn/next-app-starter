@@ -16,7 +16,7 @@ jobs:
         uses: styfle/cancel-workflow-action@0.12.1
       - id: checkout
         name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install bun
         uses: oven-sh/setup-bun@v2
       - name: Install dependencies
@@ -33,7 +33,7 @@ jobs:
         uses: styfle/cancel-workflow-action@0.12.1
       - id: checkout
         name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install bun
         uses: oven-sh/setup-bun@v2
       - name: Install dependencies
