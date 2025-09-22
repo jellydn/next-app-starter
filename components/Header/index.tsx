@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Button from '../Button';
 import styles from './header.module.css';
 import { type HeaderProps } from './types';
+import { ModeToggle } from '../theme-switcher';
 
 function Header({ links = [] }: HeaderProps) {
     const { data: session, status } = useSession();
@@ -19,12 +20,12 @@ function Header({ links = [] }: HeaderProps) {
     }
 
     return (
-        <header className="text-gray-600 body-font">
+        <header className=" body-font">
             <div className="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
                 <Link
                     passHref={true}
                     href="/"
-                    className="flex items-center mb-4 font-medium text-gray-900 md:mb-0 title-font"
+                    className="flex items-center mb-4 font-medium  md:mb-0 title-font"
                 >
                     <Image
                         src="/logo.svg"
@@ -40,11 +41,12 @@ function Header({ links = [] }: HeaderProps) {
                         <Link
                             key={link.url}
                             href={link.url}
-                            className="mr-5 hover:text-gray-900"
+                            className="mr-5"
                         >
                             {link.title}
                         </Link>
                     ))}
+                    <ModeToggle />
                 </nav>
                 {!session && (
                     <Button
@@ -67,8 +69,10 @@ function Header({ links = [] }: HeaderProps) {
                     </Button>
                 )}
 
+
+
                 {session && (
-                    <div className="inline-flex items-center py-1 px-3 mt-4 text-base bg-gray-100 rounded border-0 md:mt-0 hover:bg-gray-200 focus:outline-hidden">
+                    <div className="inline-flex items-center py-1 px-3 mt-4 text-base rounded border-0 md:mt-0 hover:bg-secondary focus:outline-hidden">
                         {session.user.image && (
                             <span
                                 style={{
@@ -99,6 +103,7 @@ function Header({ links = [] }: HeaderProps) {
                     </div>
                 )}
             </div>
+
         </header>
     );
 }

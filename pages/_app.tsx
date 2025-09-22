@@ -7,6 +7,7 @@ import type { AppProps } from 'next/app';
 import logger from '../logger';
 import store from '../store';
 import '../styles/globals.css';
+import { ThemeProvider } from '../components/theme-provider';
 
 if (process.env.NEXT_PUBLIC_API_MOCKING === 'yes') {
     if (typeof window === 'undefined') {
@@ -41,7 +42,14 @@ function MyApp({ Component, pageProps }: AppProps) {
                 refetchInterval={5 * 60}
             >
                 <QueryClientProvider client={queryClient}>
-                    <Component {...pageProps} />
+                    <ThemeProvider
+                        attribute="class"
+                        defaultTheme="dark"
+                        enableSystem
+                        disableTransitionOnChange
+                    >
+                        <Component {...pageProps} />
+                    </ThemeProvider>
                     <ReactQueryDevtools initialIsOpen={false} />
                 </QueryClientProvider>
             </SessionProvider>
