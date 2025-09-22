@@ -3,10 +3,10 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 
-import Button from '../components/Button';
 import Counter from '../components/Counter';
 import Layout from '../components/Layout';
 import logger from '../logger';
+import { Button } from '../components/ui/button';
 
 const schema = z.object({
     email: z.string().email(),
@@ -83,7 +83,7 @@ export default function Contact() {
                                     </p>
                                 )}
                             </div>
-                            <Button type="submit" intent="primary">
+                            <Button type="submit">
                                 Submit
                             </Button>
                         </form>

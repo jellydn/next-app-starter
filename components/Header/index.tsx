@@ -2,10 +2,10 @@ import { signIn, signOut, useSession } from 'next-auth/react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Button from '../Button';
 import styles from './header.module.css';
 import { type HeaderProps } from './types';
 import { ModeToggle } from '../theme-switcher';
+import { Button } from '../ui/button';
 
 function Header({ links = [] }: HeaderProps) {
     const { data: session, status } = useSession();

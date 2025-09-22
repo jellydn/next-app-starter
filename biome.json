@@ -7,7 +7,9 @@
         "defaultBranch": "main"
     },
     "files": {
-        "ignore": ["public/*.js"]
+        "ignore": [
+            "public/*.js"
+        ]
     },
     "formatter": {
         "enabled": true,
@@ -95,7 +97,11 @@
                 "noRestrictedGlobals": {
                     "level": "error",
                     "options": {
-                        "deniedGlobals": ["event", "atob", "btoa"]
+                        "deniedGlobals": [
+                            "event",
+                            "atob",
+                            "btoa"
+                        ]
                     }
                 },
                 "noVar": "error",
@@ -160,7 +166,7 @@
         "formatter": {
             "jsxQuoteStyle": "double",
             "quoteProperties": "asNeeded",
-            "trailingComma": "all",
+            "trailingCommas": "all",
             "semicolons": "always",
             "arrowParentheses": "always",
             "bracketSpacing": true,
@@ -184,13 +190,17 @@
             }
         },
         {
-            "include": [".storybook/main.@(js|cjs|mjs|ts)"],
+            "include": [
+                ".storybook/main.@(js|cjs|mjs|ts)"
+            ],
             "linter": {
                 "rules": {}
             }
         },
         {
-            "include": ["**/*.d.ts"],
+            "include": [
+                "**/*.d.ts"
+            ],
             "linter": {
                 "rules": {
                     "correctness": {
@@ -200,13 +210,17 @@
             }
         },
         {
-            "include": ["**/*.test-d.ts"],
+            "include": [
+                "**/*.test-d.ts"
+            ],
             "linter": {
                 "rules": {}
             }
         },
         {
-            "include": ["**/*.tsx"],
+            "include": [
+                "**/*.tsx"
+            ],
             "linter": {
                 "rules": {}
             }

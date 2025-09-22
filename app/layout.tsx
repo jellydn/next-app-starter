@@ -10,7 +10,7 @@ function RootLayout({
     readonly children: ReactNode;
 }) {
     return (
-        <html lang="en" suppressHydrationWarning>
+        <html lang="en" suppressHydrationWarning={true}>
             <head>
                 <Script
                     async={true}

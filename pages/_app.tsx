@@ -45,8 +45,8 @@ function MyApp({ Component, pageProps }: AppProps) {
                     <ThemeProvider
                         attribute="class"
                         defaultTheme="dark"
-                        enableSystem
-                        disableTransitionOnChange
+                        enableSystem={true}
+                        disableTransitionOnChange={true}
                     >
                         <Component {...pageProps} />
                     </ThemeProvider>
