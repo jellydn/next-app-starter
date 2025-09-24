@@ -1,9 +1,7 @@
 # Welcome to next-app-starter 👋
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
@@ -122,6 +120,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://productsway.com/"><img src="https://avatars.githubusercontent.com/u/870029?v=4?s=100" width="100px;" alt="Dung Duc Huynh (Kaka)"/><br /><sub><b>Dung Duc Huynh (Kaka)</b></sub></a><br /><a href="https://github.com/jellydn/next-app-starter/commits?author=jellydn" title="Code">💻</a> <a href="https://github.com/jellydn/next-app-starter/commits?author=jellydn" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://mike-hoang-dev.vercel.app/"><img src="https://avatars.githubusercontent.com/u/25890552?v=4?s=100" width="100px;" alt="Mike Hoang"/><br /><sub><b>Mike Hoang</b></sub></a><br /><a href="https://github.com/jellydn/next-app-starter/commits?author=mikah13" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/salmansheri"><img src="https://avatars.githubusercontent.com/u/95226945?v=4?s=100" width="100px;" alt="Salman Sheriff"/><br /><sub><b>Salman Sheriff</b></sub></a><br /><a href="https://github.com/jellydn/next-app-starter/commits?author=salmansheri" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://sadik.is-a.dev"><img src="https://avatars.githubusercontent.com/u/139070345?v=4?s=100" width="100px;" alt="SADIK"/><br /><sub><b>SADIK</b></sub></a><br /><a href="https://github.com/jellydn/next-app-starter/commits?author=square-story" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
