@@ -1,36 +1,54 @@
 {
-    "files": ["README.md"],
-    "imageSize": 100,
-    "commit": false,
-    "commitType": "docs",
-    "commitConvention": "angular",
-    "contributors": [
-        {
-            "login": "jellydn",
-            "name": "Dung Duc Huynh (Kaka)",
-            "avatar_url": "https://avatars.githubusercontent.com/u/870029?v=4",
-            "profile": "https://productsway.com/",
-            "contributions": ["code", "doc"]
-        },
-        {
-            "login": "mikah13",
-            "name": "Mike Hoang",
-            "avatar_url": "https://avatars.githubusercontent.com/u/25890552?v=4",
-            "profile": "https://mike-hoang-dev.vercel.app/",
-            "contributions": ["code"]
-        },
-        {
-            "login": "salmansheri",
-            "name": "Salman Sheriff",
-            "avatar_url": "https://avatars.githubusercontent.com/u/95226945?v=4",
-            "profile": "https://github.com/salmansheri",
-            "contributions": ["code"]
-        }
-    ],
-    "contributorsPerLine": 7,
-    "skipCi": true,
-    "repoType": "github",
-    "repoHost": "https://github.com",
-    "projectName": "next-app-starter",
-    "projectOwner": "jellydn"
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "jellydn",
+      "name": "Dung Duc Huynh (Kaka)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870029?v=4",
+      "profile": "https://productsway.com/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "mikah13",
+      "name": "Mike Hoang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25890552?v=4",
+      "profile": "https://mike-hoang-dev.vercel.app/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "salmansheri",
+      "name": "Salman Sheriff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95226945?v=4",
+      "profile": "https://github.com/salmansheri",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "square-story",
+      "name": "SADIK",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139070345?v=4",
+      "profile": "http://sadik.is-a.dev",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "next-app-starter",
+  "projectOwner": "jellydn"
 }
