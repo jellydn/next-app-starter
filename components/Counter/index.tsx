@@ -1,7 +1,7 @@
 import { useAtom } from 'jotai';
 
 import counterAtom from '../../store/counter';
-import Button from '../Button';
+import { Button } from '../ui/button';
 
 function Counter() {
     const [count, setCount] = useAtom(counterAtom);

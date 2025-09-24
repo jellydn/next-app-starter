@@ -26,7 +26,7 @@ export default function Index() {
 
                     <p className={styles.description}>
                         Get started by editing{' '}
-                        <code className={styles.code}>pages/index.tsx</code>
+                        <code className='bg-accent border-2'>pages/index.tsx</code>
                     </p>
                     <Counter />
 
