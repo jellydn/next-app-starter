@@ -1,8 +1,6 @@
 import { StoryFn } from '@storybook/react';
 import { Button, ButtonProps } from '../components/ui/button';
 
-
-
 export default {
     title: 'Button',
     argTypes: { onClick: { action: 'clicked' } },
