@@ -5,8 +5,8 @@ import { z } from 'zod';
 
 import Counter from '../components/Counter';
 import Layout from '../components/Layout';
-import logger from '../logger';
 import { Button } from '../components/ui/button';
+import logger from '../logger';
 
 const schema = z.object({
     email: z.string().email(),
@@ -83,9 +83,7 @@ export default function Contact() {
                                     </p>
                                 )}
                             </div>
-                            <Button type="submit">
-                                Submit
-                            </Button>
+                            <Button type="submit">Submit</Button>
                         </form>
                     </div>
                     <div className="mx-auto mt-10">
