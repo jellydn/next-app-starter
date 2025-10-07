@@ -2,10 +2,10 @@ import { signIn, signOut, useSession } from 'next-auth/react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import styles from './header.module.css';
-import { type HeaderProps } from './types';
 import { ModeToggle } from '../theme-switcher';
 import { Button } from '../ui/button';
+import styles from './header.module.css';
+import { type HeaderProps } from './types';
 
 function Header({ links = [] }: HeaderProps) {
     const { data: session, status } = useSession();
@@ -38,11 +38,7 @@ function Header({ links = [] }: HeaderProps) {
                 </Link>
                 <nav className="flex flex-wrap justify-center items-center text-base md:py-1 md:pl-4 md:mr-auto md:ml-4 md:border-l md:border-gray-400">
                     {links.map((link) => (
-                        <Link
-                            key={link.url}
-                            href={link.url}
-                            className="mr-5"
-                        >
+                        <Link key={link.url} href={link.url} className="mr-5">
                             {link.title}
                         </Link>
                     ))}
@@ -68,8 +64,6 @@ function Header({ links = [] }: HeaderProps) {
                         </svg>
                     </Button>
                 )}
-
-
 
                 {session && (
                     <div className="inline-flex items-center py-1 px-3 mt-4 text-base rounded border-0 md:mt-0 hover:bg-secondary focus:outline-hidden">
@@ -103,7 +97,6 @@ function Header({ links = [] }: HeaderProps) {
                     </div>
                 )}
             </div>
-
         </header>
     );
 }
