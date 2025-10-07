@@ -1,7 +1,6 @@
 import Script from 'next/script';
 import { ReactNode } from 'react';
 
-
 function RootLayout({
     // Layouts must accept a children prop.
     // This will be populated with nested layouts or pages
@@ -20,9 +19,7 @@ function RootLayout({
                 />
                 <title>NextJs Starter App</title>
             </head>
-            <body>
-                {children}
-            </body>
+            <body>{children}</body>
         </html>
     );
 }
