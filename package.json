@@ -82,7 +82,7 @@
         "prisma": "6.19.0",
         "rustywind": "0.24.3",
         "sort-package-json": "3.4.0",
-        "storybook": "9.1.16",
+        "storybook": "9.1.17",
         "tailwindcss": "4.1.17",
         "typescript": "5.9.3",
         "vite": "6.4.1",
