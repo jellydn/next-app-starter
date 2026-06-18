@@ -13,9 +13,9 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.3.1
       - name: Setup Biome
-        uses: biomejs/setup-biome@v2
+        uses: biomejs/setup-biome@v2.7.1
         with:
           version: latest
       - name: Run Biome
@@ -23,4 +23,4 @@ jobs:
         continue-on-error: true # Continue even if biome fails
 
       # Commit all changed files back to the repository
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v5.2.0
