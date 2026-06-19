@@ -85,7 +85,7 @@
         "storybook": "9.1.20",
         "tailwindcss": "4.2.1",
         "typescript": "5.9.3",
-        "vite": "6.4.2",
+        "vite": "6.4.3",
         "vitest": "3.2.6"
     },
     "msw": {
