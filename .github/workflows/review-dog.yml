@@ -11,7 +11,7 @@ jobs:
       contents: read
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4.4.0
+      - uses: actions/checkout@v7.0.1
       - uses: mongolyy/reviewdog-action-biome@v1.13.0
         with:
           github_token: ${{ secrets.github_token }}
@@ -24,7 +24,7 @@ jobs:
       contents: read
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4.4.0
+      - uses: actions/checkout@v7.0.1
       - name: misspell
         uses: reviewdog/action-misspell@v1.27.0
         with:
