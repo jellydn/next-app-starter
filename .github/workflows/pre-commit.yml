@@ -13,7 +13,7 @@ jobs:
       # added or changed files to the repository.
       contents: write
     steps:
-      - uses: actions/checkout@v4.3.1
+      - uses: actions/checkout@v4.4.0
       - uses: actions/setup-python@v5.6.0
       - name: Install pre-commit
         run: pip install pre-commit
