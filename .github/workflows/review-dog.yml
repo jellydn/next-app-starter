@@ -26,7 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4.4.0
       - name: misspell
-        uses: reviewdog/action-misspell@v1.27.0
+        uses: reviewdog/action-misspell@v1.28.0
         with:
           github_token: ${{ secrets.github_token }}
           locale: "US"
