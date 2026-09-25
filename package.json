@@ -68,7 +68,7 @@
         "@testing-library/react": "16.3.3",
         "@types/react": "19.3.0",
         "@vitejs/plugin-react": "4.7.0",
-        "@vitest/ui": "3.2.7",
+        "@vitest/ui": "5.0.2",
         "babel-jest": "30.5.1",
         "babel-loader": "10.1.1",
         "c8": "10.1.3",
